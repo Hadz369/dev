@@ -1,0 +1,44 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\bin\Debug\Alma.exe.config
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\bin\Debug\Alma.exe
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\bin\Debug\Alma.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Windows\Login.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Windows\Login.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Windows\Shell.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Alma_MarkupCompile.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Alma_MarkupCompile.lref
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Windows\Shell.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Alma.g.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Alma.exe
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Alma.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\bin\Debug\Alma.exe.config
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\obj\Debug\Alma.exe
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\obj\Debug\Alma.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\obj\Debug\Windows\Login.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\obj\Debug\Windows\Login.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\obj\Debug\Alma_MarkupCompile.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\bin\Debug\Alma.exe
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\bin\Debug\Alma.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\obj\Debug\Alma.g.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\bin\Debug\Alma.Controls.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\bin\Debug\Alma.Controls.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\obj\Debug\Alma.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\bin\Debug\Alma.Shared.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\bin\Debug\Alma.Shared.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\bin\Debug\Alma.Plugin.Shell.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\bin\Debug\Alma.Plugin.Shell.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\Alma.exe.config
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\Alma.exe
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\Alma.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma\obj\Debug\Alma_Content.g.cs
+C:\private\dev\project\VS\Alma\Develop.Bin\Alma.exe.config
+C:\private\dev\project\VS\Alma\Alma\obj\Debug\Alma.exe
+C:\private\dev\project\VS\Alma\Alma\obj\Debug\Alma.pdb
+C:\private\dev\project\VS\Alma\Develop.Bin\Alma.exe
+C:\private\dev\project\VS\Alma\Develop.Bin\Alma.pdb
+C:\private\dev\project\VS\Alma\Alma\obj\Debug\Alma.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Alma\Alma\obj\Debug\Windows\Login.baml
+C:\private\dev\project\VS\Alma\Alma\obj\Debug\Windows\Login.g.cs
+C:\private\dev\project\VS\Alma\Alma\obj\Debug\Alma_Content.g.cs
+C:\private\dev\project\VS\Alma\Alma\obj\Debug\Alma_MarkupCompile.cache
+C:\private\dev\project\VS\Alma\Alma\obj\Debug\Alma.g.resources

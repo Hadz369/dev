@@ -1,0 +1,9 @@
+C:\private\dev\project\VS\ClientServer\Core\eBet.Data.Core\obj\Debug\Ruby.Data.Core.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\ClientServer\Develop.Bin\framework\Ruby.Data.Core.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\framework\Ruby.Data.Core.pdb
+C:\private\dev\project\VS\ClientServer\Core\eBet.Data.Core\obj\Debug\Ruby.Data.Core.dll
+C:\private\dev\project\VS\ClientServer\Core\eBet.Data.Core\obj\Debug\Ruby.Data.Core.pdb
+C:\private\dev\project\VS\ClientServer\Core\Ruby.Data.Core\obj\Debug\Ruby.Data.Core.dll
+C:\private\dev\project\VS\ClientServer\Core\Ruby.Data.Core\obj\Debug\Ruby.Data.Core.pdb
+C:\private\dev\project\VS\ClientServer\Develop.Bin\framework\Ruby.Data.Core.XML
+C:\private\dev\project\VS\ClientServer\Core\Ruby.Data.Core\obj\Debug\Ruby.Data.Core.csprojResolveAssemblyReference.cache

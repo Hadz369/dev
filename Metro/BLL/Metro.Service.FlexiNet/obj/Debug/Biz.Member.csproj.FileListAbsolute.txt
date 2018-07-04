@@ -1,0 +1,4 @@
+C:\private\dev\project\VS\ClientServer\Develop.Bin\BIZ\Biz.Member.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\BIZ\Biz.Member.pdb
+C:\private\dev\project\VS\ClientServer\BIZ\eBet.Business.Member\obj\Debug\Biz.Member.dll
+C:\private\dev\project\VS\ClientServer\BIZ\eBet.Business.Member\obj\Debug\Biz.Member.pdb

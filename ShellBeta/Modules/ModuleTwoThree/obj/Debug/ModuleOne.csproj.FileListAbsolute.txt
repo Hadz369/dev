@@ -1,0 +1,11 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\module\ModuleOne.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\module\ModuleOne.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleOne\obj\Debug\ModuleOne.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleOne\obj\Debug\UserControl1.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleOne\obj\Debug\UserControl1.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleOne\obj\Debug\ModuleOne_MarkupCompile.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleOne\obj\Debug\ModuleOne.g.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleOne\obj\Debug\Alma.Module.Properties.Resources.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleOne\obj\Debug\ModuleOne.csproj.GenerateResource.Cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleOne\obj\Debug\ModuleOne.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleOne\obj\Debug\ModuleOne.pdb

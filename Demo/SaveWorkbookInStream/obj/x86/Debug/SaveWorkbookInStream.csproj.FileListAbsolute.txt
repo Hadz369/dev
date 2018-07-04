@@ -1,0 +1,9 @@
+C:\private\dev\project\VS\Demo\SaveWorkbookInStream\bin\Debug\SaveWorkbookInStream.exe
+C:\private\dev\project\VS\Demo\SaveWorkbookInStream\bin\Debug\SaveWorkbookInStream.pdb
+C:\private\dev\project\VS\Demo\SaveWorkbookInStream\obj\x86\Debug\SaveWorkbookInStream.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Demo\SaveWorkbookInStream\obj\x86\Debug\SaveWorkbookInStream.Form1.resources
+C:\private\dev\project\VS\Demo\SaveWorkbookInStream\obj\x86\Debug\SaveWorkbookInStream.Properties.Resources.resources
+C:\private\dev\project\VS\Demo\SaveWorkbookInStream\obj\x86\Debug\SaveWorkbookInStream.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\Demo\SaveWorkbookInStream\obj\x86\Debug\SaveWorkbookInStream.exe.licenses
+C:\private\dev\project\VS\Demo\SaveWorkbookInStream\obj\x86\Debug\SaveWorkbookInStream.exe
+C:\private\dev\project\VS\Demo\SaveWorkbookInStream\obj\x86\Debug\SaveWorkbookInStream.pdb

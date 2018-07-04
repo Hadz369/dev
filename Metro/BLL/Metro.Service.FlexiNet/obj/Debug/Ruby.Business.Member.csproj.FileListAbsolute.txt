@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\ClientServer\Develop.Bin\BIZ\eBet.Business.Member.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\BIZ\eBet.Business.Member.pdb
+C:\private\dev\project\VS\ClientServer\BIZ\eBet.Business.Member\obj\Debug\Metro.Business.Member.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\ClientServer\BIZ\eBet.Business.Member\obj\Debug\eBet.Business.Member.dll
+C:\private\dev\project\VS\ClientServer\BIZ\eBet.Business.Member\obj\Debug\eBet.Business.Member.pdb

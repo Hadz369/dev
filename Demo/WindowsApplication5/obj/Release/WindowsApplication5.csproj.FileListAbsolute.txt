@@ -1,0 +1,10 @@
+C:\private\dev\project\VS\Demo\WindowsApplication5\bin\Release\WindowsApplication5.exe
+C:\private\dev\project\VS\Demo\WindowsApplication5\obj\Release\WindowsApplication5.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Demo\WindowsApplication5\obj\Release\Window1.baml
+C:\private\dev\project\VS\Demo\WindowsApplication5\obj\Release\Window1.g.cs
+C:\private\dev\project\VS\Demo\WindowsApplication5\obj\Release\App.g.cs
+C:\private\dev\project\VS\Demo\WindowsApplication5\obj\Release\WindowsApplication5_MarkupCompile.cache
+C:\private\dev\project\VS\Demo\WindowsApplication5\obj\Release\WindowsApplication5.g.resources
+C:\private\dev\project\VS\Demo\WindowsApplication5\obj\Release\WindowsApplication1.Properties.Resources.resources
+C:\private\dev\project\VS\Demo\WindowsApplication5\obj\Release\WindowsApplication5.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\Demo\WindowsApplication5\obj\Release\WindowsApplication5.exe

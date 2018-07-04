@@ -1,0 +1,1 @@
+Q:\project\VS\Metro\Test\CMSConsole\bin\Debug\CMSConsole.exe.config

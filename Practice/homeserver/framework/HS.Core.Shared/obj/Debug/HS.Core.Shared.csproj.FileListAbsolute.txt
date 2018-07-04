@@ -1,0 +1,9 @@
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Core.Shared\bin\Debug\HS.Core.Shared.dll
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Core.Shared\bin\Debug\HS.Core.Shared.pdb
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Core.Shared\obj\Debug\HS.Core.Shared.dll
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Core.Shared\obj\Debug\HS.Core.Shared.pdb
+D:\private\dev\project\VS\Practice\homeserver\framework\HS.Core.Shared\bin\Debug\HS.Core.Shared.dll
+D:\private\dev\project\VS\Practice\homeserver\framework\HS.Core.Shared\bin\Debug\HS.Core.Shared.pdb
+D:\private\dev\project\VS\Practice\homeserver\framework\HS.Core.Shared\obj\Debug\HS.Core.Shared.csproj.CoreCompileInputs.cache
+D:\private\dev\project\VS\Practice\homeserver\framework\HS.Core.Shared\obj\Debug\HS.Core.Shared.dll
+D:\private\dev\project\VS\Practice\homeserver\framework\HS.Core.Shared\obj\Debug\HS.Core.Shared.pdb

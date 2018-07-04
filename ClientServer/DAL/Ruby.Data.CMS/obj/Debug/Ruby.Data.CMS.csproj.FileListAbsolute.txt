@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.CMS\obj\Debug\Ruby.Data.CMS.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Ruby.Data.CMS.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Ruby.Data.CMS.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.CMS\obj\Debug\Ruby.Data.CMS.dll
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.CMS\obj\Debug\Ruby.Data.CMS.pdb

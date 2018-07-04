@@ -1,0 +1,4 @@
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Metro.Data.Shared.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Metro.Data.Shared.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Metro.Data.Shared\obj\Debug\Metro.Data.Shared.dll
+C:\private\dev\project\VS\ClientServer\DAL\Metro.Data.Shared\obj\Debug\Metro.Data.Shared.pdb

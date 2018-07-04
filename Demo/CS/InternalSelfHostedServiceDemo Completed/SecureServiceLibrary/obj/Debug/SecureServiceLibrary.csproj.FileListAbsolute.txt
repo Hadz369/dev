@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo Completed\SecureServiceLibrary\bin\Debug\SecureServiceLibrary.dll.config
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo Completed\SecureServiceLibrary\bin\Debug\SecureServiceLibrary.dll
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo Completed\SecureServiceLibrary\bin\Debug\SecureServiceLibrary.pdb
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo Completed\SecureServiceLibrary\obj\Debug\SecureServiceLibrary.dll
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo Completed\SecureServiceLibrary\obj\Debug\SecureServiceLibrary.pdb

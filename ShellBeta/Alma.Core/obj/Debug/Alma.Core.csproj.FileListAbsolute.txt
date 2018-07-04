@@ -1,0 +1,13 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\framework\Alma.Core.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\framework\Alma.Core.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Core\obj\Debug\Alma.Core.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Core\obj\Debug\Alma.Core.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Core\obj\Debug\Alma.Core.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Alma.Core\obj\Debug\Alma.Core.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Alma.Core\obj\Debug\Alma.Core.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Develop.Bin\framework\Alma.Core.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Develop.Bin\framework\Alma.Core.pdb
+C:\private\dev\project\VS\ShellBeta\Develop.Bin\framework\Alma.Core.dll
+C:\private\dev\project\VS\ShellBeta\Develop.Bin\framework\Alma.Core.pdb
+C:\private\dev\project\VS\ShellBeta\Alma.Core\obj\Debug\Alma.Core.dll
+C:\private\dev\project\VS\ShellBeta\Alma.Core\obj\Debug\Alma.Core.pdb

@@ -1,0 +1,4 @@
+C:\private\dev\project\VS\ClientServer\Develop.Bin\BIZ\Ruby.Biz.Player.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\BIZ\Ruby.Biz.Player.pdb
+C:\private\dev\project\VS\ClientServer\BIZ\eBet.Business.Player\obj\Debug\Ruby.Biz.Player.dll
+C:\private\dev\project\VS\ClientServer\BIZ\eBet.Business.Player\obj\Debug\Ruby.Biz.Player.pdb

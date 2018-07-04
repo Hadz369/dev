@@ -1,0 +1,6 @@
+C:\private\dev\project\VS\Metro\Develop.Bin\DAL\Metro.Data.System.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\DAL\Metro.Data.System.pdb
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.System\obj\Debug\Metro.Data.System.dll
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.System\obj\Debug\Metro.Data.System.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.System\obj\Debug\Metro.Data.System.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.System\obj\Debug\Metro.Data.System.pdb

@@ -1,0 +1,10 @@
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Serial.Core.dll
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Serial.Core.pdb
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Serial.Core\obj\Release\eBet.Serial.Core.csprojResolveAssemblyReference.cache
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Serial.Core\obj\Release\eBet.Serial.Core.dll
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Serial.Core\obj\Release\eBet.Serial.Core.pdb
+R:\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Serial.Core.dll
+R:\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Serial.Core.pdb
+R:\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Serial.Core\obj\Release\eBet.Serial.Core.csprojResolveAssemblyReference.cache
+R:\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Serial.Core\obj\Release\eBet.Serial.Core.dll
+R:\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Serial.Core\obj\Release\eBet.Serial.Core.pdb

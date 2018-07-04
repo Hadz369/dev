@@ -1,0 +1,4 @@
+C:\private\dev\project\VS\framework\Framework.Event\bin\Debug\Framework.Event.dll
+C:\private\dev\project\VS\framework\Framework.Event\bin\Debug\Framework.Event.pdb
+C:\private\dev\project\VS\framework\Framework.Event\obj\Debug\Framework.Event.dll
+C:\private\dev\project\VS\framework\Framework.Event\obj\Debug\Framework.Event.pdb

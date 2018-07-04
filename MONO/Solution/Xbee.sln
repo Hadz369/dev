@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xbee.Network", "..\Network\Xbee.Network\Xbee.Network.csproj", "{8F6E7A27-DED7-4D48-A323-462D05D306E8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Xbee.TestHarness", "..\Network\Xbee.TestHarness\Xbee.TestHarness.csproj", "{E1B99C44-3E8C-4588-8377-211DE7F82359}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8F6E7A27-DED7-4D48-A323-462D05D306E8}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{8F6E7A27-DED7-4D48-A323-462D05D306E8}.Debug|x86.Build.0 = Debug|Any CPU
+		{8F6E7A27-DED7-4D48-A323-462D05D306E8}.Release|x86.ActiveCfg = Release|Any CPU
+		{8F6E7A27-DED7-4D48-A323-462D05D306E8}.Release|x86.Build.0 = Release|Any CPU
+		{E1B99C44-3E8C-4588-8377-211DE7F82359}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{E1B99C44-3E8C-4588-8377-211DE7F82359}.Debug|x86.Build.0 = Debug|Any CPU
+		{E1B99C44-3E8C-4588-8377-211DE7F82359}.Release|x86.ActiveCfg = Release|Any CPU
+		{E1B99C44-3E8C-4588-8377-211DE7F82359}.Release|x86.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = ..\Network\Xbee.Network\Xbee.Network.csproj
+	EndGlobalSection
+EndGlobal

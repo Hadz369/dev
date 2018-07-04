@@ -1,0 +1,6 @@
+﻿Windows 8:
+Remember to configure HTTP Activation in Windows Features under .Net Framework 3.5 and 4.5
+Set the binding to HTTPS to configure the TP service.
+Copy the .svc and web.config to the site folder.
+Copy the DLL to the bin folder within the site folder.
+Configure the connection string in the web.Config folder.

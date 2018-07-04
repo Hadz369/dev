@@ -1,0 +1,6 @@
+C:\private\dev\project\VS\TempLogger\TempLogger\bin\Debug\TempLogger.exe
+C:\private\dev\project\VS\TempLogger\TempLogger\bin\Debug\TempLogger.pdb
+C:\private\dev\project\VS\TempLogger\TempLogger\obj\Debug\TempLogger.exe
+C:\private\dev\project\VS\TempLogger\TempLogger\obj\Debug\TempLogger.pdb
+C:\private\dev\project\VS\TempLogger\TempLogger\bin\Debug\TempLogger.exe.config
+C:\private\dev\project\VS\TempLogger\TempLogger\obj\Debug\TempLogger.csprojResolveAssemblyReference.cache

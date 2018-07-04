@@ -1,0 +1,6 @@
+C:\private\dev\project\VS\Practice\Rest\Service\obj\Debug\Service.csprojResolveAssemblyReference.cache
+C:\temp\build\Service.dll
+C:\temp\build\Service.pdb
+C:\private\dev\project\VS\Practice\Rest\Service\obj\Debug\Service.dll
+C:\private\dev\project\VS\Practice\Rest\Service\obj\Debug\Service.pdb
+C:\temp\build\service.svc

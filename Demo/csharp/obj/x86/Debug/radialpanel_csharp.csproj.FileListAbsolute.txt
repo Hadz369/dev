@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\Demo\csharp\bin\Debug\SDKSample.exe
+C:\private\dev\project\VS\Demo\csharp\bin\Debug\SDKSample.pdb
+C:\private\dev\project\VS\Demo\csharp\obj\x86\Debug\radialpanel_csharp.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Demo\csharp\obj\x86\Debug\SDKSample.exe
+C:\private\dev\project\VS\Demo\csharp\obj\x86\Debug\SDKSample.pdb

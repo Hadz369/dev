@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro.Core", "metro.core\Metro.Core.csproj", "{0933C2B9-D493-4C03-ABC6-6C6BBC391378}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3A807E45-45F3-4D9E-808F-BED3F131EA5B} = {3A807E45-45F3-4D9E-808F-BED3F131EA5B}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro.Serial.Core", "metro.serial.core\Metro.Serial.Core.csproj", "{E09997E4-57FD-4F0A-9C55-9C6BB2490D01}"
+	ProjectSection(ProjectDependencies) = postProject
+		{0933C2B9-D493-4C03-ABC6-6C6BBC391378} = {0933C2B9-D493-4C03-ABC6-6C6BBC391378}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro.Core.Shared", "metro.core.shared\Metro.Core.Shared.csproj", "{3A807E45-45F3-4D9E-808F-BED3F131EA5B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0933C2B9-D493-4C03-ABC6-6C6BBC391378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0933C2B9-D493-4C03-ABC6-6C6BBC391378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0933C2B9-D493-4C03-ABC6-6C6BBC391378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0933C2B9-D493-4C03-ABC6-6C6BBC391378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09997E4-57FD-4F0A-9C55-9C6BB2490D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09997E4-57FD-4F0A-9C55-9C6BB2490D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09997E4-57FD-4F0A-9C55-9C6BB2490D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09997E4-57FD-4F0A-9C55-9C6BB2490D01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A807E45-45F3-4D9E-808F-BED3F131EA5B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A807E45-45F3-4D9E-808F-BED3F131EA5B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A807E45-45F3-4D9E-808F-BED3F131EA5B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A807E45-45F3-4D9E-808F-BED3F131EA5B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

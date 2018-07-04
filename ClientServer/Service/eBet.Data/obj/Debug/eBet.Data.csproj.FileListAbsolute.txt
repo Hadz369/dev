@@ -1,0 +1,7 @@
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\bin\Debug\eBet.Data.exe
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\bin\Debug\eBet.Data.pdb
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\obj\Debug\eBet.Data.csprojResolveAssemblyReference.cache
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\obj\Debug\eBet.Data.exe
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\obj\Debug\eBet.Data.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\obj\Debug\eBet.Data.exe
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\obj\Debug\eBet.Data.pdb

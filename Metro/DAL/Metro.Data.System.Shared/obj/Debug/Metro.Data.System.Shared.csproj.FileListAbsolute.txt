@@ -1,0 +1,8 @@
+C:\private\dev\project\VS\Metro\Develop.Bin\DAL\Metro.Data.System.Shared.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\DAL\Metro.Data.System.Shared.pdb
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.System.Shared\obj\Debug\Metro.Data.System.Shared.dll
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.System.Shared\obj\Debug\Metro.Data.System.Shared.pdb
+C:\private\dev\project\VS\Metro\Develop.Bin\shared\Metro.Data.System.Shared.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\shared\Metro.Data.System.Shared.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.System.Shared\obj\Debug\Metro.Data.System.Shared.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.System.Shared\obj\Debug\Metro.Data.System.Shared.pdb

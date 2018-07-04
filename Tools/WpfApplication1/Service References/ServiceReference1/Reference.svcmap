@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="66c697cc-7650-4445-9a36-20546d8a29db" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://10.1.1.84:81/EPSGatewayServiceRedeemX/GatewayService.svc" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="GatewayService.xsd" MetadataType="Schema" ID="517bc9da-bce7-4784-af0c-a2ce04563549" SourceId="1" SourceUrl="http://devdialout2:81/EPSGatewayServiceRedeemX/GatewayService.svc?xsd=xsd0" />
+    <MetadataFile FileName="GatewayService.wsdl" MetadataType="Wsdl" ID="0230bcb1-c5ed-437e-8ecb-e3dd37a0a9c6" SourceId="1" SourceUrl="http://devdialout2:81/EPSGatewayServiceRedeemX/GatewayService.svc?wsdl" />
+    <MetadataFile FileName="GatewayService1.xsd" MetadataType="Schema" ID="b69b6001-c86a-468c-a176-60f982fc1527" SourceId="1" SourceUrl="http://devdialout2:81/EPSGatewayServiceRedeemX/GatewayService.svc?xsd=xsd1" />
+    <MetadataFile FileName="GatewayService.disco" MetadataType="Disco" ID="ea0b8b58-bbb3-4dae-ab50-678a843cbfd0" SourceId="1" SourceUrl="http://devdialout2:81/EPSGatewayServiceRedeemX/GatewayService.svc?disco" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

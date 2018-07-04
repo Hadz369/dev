@@ -1,0 +1,1091 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://ebetgroup.com.au/EPSGatewayService" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GatewayService" targetNamespace="http://ebetgroup.com.au/EPSGatewayService" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsp:Policy wsu:Id="WS_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SymmetricBinding xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:ProtectionToken>
+              <wsp:Policy>
+                <sp:SecureConversationToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                  <wsp:Policy>
+                    <sp:RequireDerivedKeys />
+                    <sp:BootstrapPolicy>
+                      <wsp:Policy>
+                        <sp:SignedParts>
+                          <sp:Body />
+                          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+                          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+                        </sp:SignedParts>
+                        <sp:EncryptedParts>
+                          <sp:Body />
+                        </sp:EncryptedParts>
+                        <sp:SymmetricBinding>
+                          <wsp:Policy>
+                            <sp:ProtectionToken>
+                              <wsp:Policy>
+                                <mssp:SslContextToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient" xmlns:mssp="http://schemas.microsoft.com/ws/2005/07/securitypolicy">
+                                  <wsp:Policy>
+                                    <sp:RequireDerivedKeys />
+                                  </wsp:Policy>
+                                </mssp:SslContextToken>
+                              </wsp:Policy>
+                            </sp:ProtectionToken>
+                            <sp:AlgorithmSuite>
+                              <wsp:Policy>
+                                <sp:Basic256 />
+                              </wsp:Policy>
+                            </sp:AlgorithmSuite>
+                            <sp:Layout>
+                              <wsp:Policy>
+                                <sp:Strict />
+                              </wsp:Policy>
+                            </sp:Layout>
+                            <sp:IncludeTimestamp />
+                            <sp:EncryptSignature />
+                            <sp:OnlySignEntireHeadersAndBody />
+                          </wsp:Policy>
+                        </sp:SymmetricBinding>
+                        <sp:SignedSupportingTokens>
+                          <wsp:Policy>
+                            <sp:UsernameToken sp:IncludeToken="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy/IncludeToken/AlwaysToRecipient">
+                              <wsp:Policy>
+                                <sp:WssUsernameToken10 />
+                              </wsp:Policy>
+                            </sp:UsernameToken>
+                          </wsp:Policy>
+                        </sp:SignedSupportingTokens>
+                        <sp:Wss11>
+                          <wsp:Policy>
+                            <sp:MustSupportRefKeyIdentifier />
+                            <sp:MustSupportRefIssuerSerial />
+                            <sp:MustSupportRefThumbprint />
+                            <sp:MustSupportRefEncryptedKey />
+                          </wsp:Policy>
+                        </sp:Wss11>
+                        <sp:Trust10>
+                          <wsp:Policy>
+                            <sp:MustSupportIssuedTokens />
+                            <sp:RequireClientEntropy />
+                            <sp:RequireServerEntropy />
+                          </wsp:Policy>
+                        </sp:Trust10>
+                      </wsp:Policy>
+                    </sp:BootstrapPolicy>
+                  </wsp:Policy>
+                </sp:SecureConversationToken>
+              </wsp:Policy>
+            </sp:ProtectionToken>
+            <sp:AlgorithmSuite>
+              <wsp:Policy>
+                <sp:Basic256 />
+              </wsp:Policy>
+            </sp:AlgorithmSuite>
+            <sp:Layout>
+              <wsp:Policy>
+                <sp:Strict />
+              </wsp:Policy>
+            </sp:Layout>
+            <sp:IncludeTimestamp />
+            <sp:EncryptSignature />
+            <sp:OnlySignEntireHeadersAndBody />
+          </wsp:Policy>
+        </sp:SymmetricBinding>
+        <sp:Wss11 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:MustSupportRefKeyIdentifier />
+            <sp:MustSupportRefIssuerSerial />
+            <sp:MustSupportRefThumbprint />
+            <sp:MustSupportRefEncryptedKey />
+          </wsp:Policy>
+        </sp:Wss11>
+        <sp:Trust10 xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <wsp:Policy>
+            <sp:MustSupportIssuedTokens />
+            <sp:RequireClientEntropy />
+            <sp:RequireServerEntropy />
+          </wsp:Policy>
+        </sp:Trust10>
+        <wsaw:UsingAddressing />
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMemberDetails_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMemberDetails_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMemberDetails_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetUnfinancial_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetUnfinancial_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetUnfinancial_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_InternetReceipt_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_InternetReceipt_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_InternetReceipt_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMemberActivity_FullCardData_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMemberActivity_FullCardData_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMemberActivity_FullCardData_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetTotalMachinesInPlay_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetTotalMachinesInPlay_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetTotalMachinesInPlay_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMachineStatus_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMachineStatus_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMachineStatus_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMachineDetails_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMachineDetails_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMachineDetails_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMachineMeters_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMachineMeters_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_GetMachineMeters_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_AddPOSPoints_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_AddPOSPoints_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_AddPOSPoints_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_RedeemPOSPoints_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_RedeemPOSPoints_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_RedeemPOSPoints_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_RefundPOSPoints_Input_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_RefundPOSPoints_output_policy">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsp:Policy wsu:Id="WS_RefundPOSPoints_FaultDetailsFault_Fault">
+    <wsp:ExactlyOne>
+      <wsp:All>
+        <sp:SignedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+          <sp:Header Name="To" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="From" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="FaultTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="ReplyTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="MessageID" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="RelatesTo" Namespace="http://www.w3.org/2005/08/addressing" />
+          <sp:Header Name="Action" Namespace="http://www.w3.org/2005/08/addressing" />
+        </sp:SignedParts>
+        <sp:EncryptedParts xmlns:sp="http://schemas.xmlsoap.org/ws/2005/07/securitypolicy">
+          <sp:Body />
+        </sp:EncryptedParts>
+      </wsp:All>
+    </wsp:ExactlyOne>
+  </wsp:Policy>
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://ebetgroup.com.au/EPSGatewayService/Imports">
+      <xsd:import schemaLocation="http://devdialout2:81/EPSGatewayServiceRedeemX/GatewayService.svc?xsd=xsd0" namespace="http://ebetgroup.com.au/EPSGatewayService" />
+      <xsd:import schemaLocation="http://devdialout2:81/EPSGatewayServiceRedeemX/GatewayService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="IGateWayService_GetMemberDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMemberDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMemberDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMemberDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMemberDetails_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetUnfinancial_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnfinancial" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetUnfinancial_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUnfinancialResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetUnfinancial_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_InternetReceipt_InputMessage">
+    <wsdl:part name="parameters" element="tns:InternetReceipt" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_InternetReceipt_OutputMessage">
+    <wsdl:part name="parameters" element="tns:InternetReceiptResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_InternetReceipt_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMemberActivity_FullCardData_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMemberActivity_FullCardData" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMemberActivity_FullCardData_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMemberActivity_FullCardDataResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMemberActivity_FullCardData_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetTotalMachinesInPlay_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalMachinesInPlay" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetTotalMachinesInPlay_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetTotalMachinesInPlayResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetTotalMachinesInPlay_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMachineStatus_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMachineStatus" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMachineStatus_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMachineStatusResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMachineStatus_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMachineDetails_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMachineDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMachineDetails_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMachineDetailsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMachineDetails_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMachineMeters_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetMachineMeters" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMachineMeters_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetMachineMetersResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_GetMachineMeters_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_AddPOSPoints_InputMessage">
+    <wsdl:part name="parameters" element="tns:AddPOSPoints" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_AddPOSPoints_OutputMessage">
+    <wsdl:part name="parameters" element="tns:AddPOSPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_AddPOSPoints_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_RedeemPOSPoints_InputMessage">
+    <wsdl:part name="parameters" element="tns:RedeemPOSPoints" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_RedeemPOSPoints_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RedeemPOSPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_RedeemPOSPoints_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_RefundPOSPoints_InputMessage">
+    <wsdl:part name="parameters" element="tns:RefundPOSPoints" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_RefundPOSPoints_OutputMessage">
+    <wsdl:part name="parameters" element="tns:RefundPOSPointsResponse" />
+  </wsdl:message>
+  <wsdl:message name="IGateWayService_RefundPOSPoints_FaultDetailsFault_FaultMessage">
+    <wsdl:part name="detail" element="tns:FaultDetails" />
+  </wsdl:message>
+  <wsdl:portType name="IGateWayService">
+    <wsdl:operation name="GetMemberDetails">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMemberDetails" message="tns:IGateWayService_GetMemberDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMemberDetailsResponse" message="tns:IGateWayService_GetMemberDetails_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMemberDetailsFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_GetMemberDetails_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUnfinancial">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetUnfinancial" message="tns:IGateWayService_GetUnfinancial_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetUnfinancialResponse" message="tns:IGateWayService_GetUnfinancial_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetUnfinancialFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_GetUnfinancial_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="InternetReceipt">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/InternetReceipt" message="tns:IGateWayService_InternetReceipt_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/InternetReceiptResponse" message="tns:IGateWayService_InternetReceipt_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/InternetReceiptFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_InternetReceipt_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMemberActivity_FullCardData">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMemberActivity_FullCardData" message="tns:IGateWayService_GetMemberActivity_FullCardData_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMemberActivity_FullCardDataResponse" message="tns:IGateWayService_GetMemberActivity_FullCardData_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMemberActivity_FullCardDataFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_GetMemberActivity_FullCardData_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalMachinesInPlay">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetTotalMachinesInPlay" message="tns:IGateWayService_GetTotalMachinesInPlay_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetTotalMachinesInPlayResponse" message="tns:IGateWayService_GetTotalMachinesInPlay_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetTotalMachinesInPlayFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_GetTotalMachinesInPlay_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineStatus">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineStatus" message="tns:IGateWayService_GetMachineStatus_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineStatusResponse" message="tns:IGateWayService_GetMachineStatus_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineStatusFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_GetMachineStatus_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineDetails">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineDetails" message="tns:IGateWayService_GetMachineDetails_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineDetailsResponse" message="tns:IGateWayService_GetMachineDetails_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineDetailsFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_GetMachineDetails_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineMeters">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineMeters" message="tns:IGateWayService_GetMachineMeters_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineMetersResponse" message="tns:IGateWayService_GetMachineMeters_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineMetersFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_GetMachineMeters_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="AddPOSPoints">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/AddPOSPoints" message="tns:IGateWayService_AddPOSPoints_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/AddPOSPointsResponse" message="tns:IGateWayService_AddPOSPoints_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/AddPOSPointsFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_AddPOSPoints_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RedeemPOSPoints">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/RedeemPOSPoints" message="tns:IGateWayService_RedeemPOSPoints_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/RedeemPOSPointsResponse" message="tns:IGateWayService_RedeemPOSPoints_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/RedeemPOSPointsFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_RedeemPOSPoints_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="RefundPOSPoints">
+      <wsdl:input wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/RefundPOSPoints" message="tns:IGateWayService_RefundPOSPoints_InputMessage" />
+      <wsdl:output wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/RefundPOSPointsResponse" message="tns:IGateWayService_RefundPOSPoints_OutputMessage" />
+      <wsdl:fault wsaw:Action="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/RefundPOSPointsFaultDetailsFault" name="FaultDetailsFault" message="tns:IGateWayService_RefundPOSPoints_FaultDetailsFault_FaultMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="WS" type="tns:IGateWayService">
+    <wsp:PolicyReference URI="#WS_policy" />
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="GetMemberDetails">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMemberDetails" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_GetMemberDetails_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_GetMemberDetails_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_GetMemberDetails_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetUnfinancial">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetUnfinancial" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_GetUnfinancial_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_GetUnfinancial_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_GetUnfinancial_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="InternetReceipt">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/InternetReceipt" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_InternetReceipt_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_InternetReceipt_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_InternetReceipt_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetMemberActivity_FullCardData">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMemberActivity_FullCardData" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_GetMemberActivity_FullCardData_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_GetMemberActivity_FullCardData_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_GetMemberActivity_FullCardData_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetTotalMachinesInPlay">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetTotalMachinesInPlay" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_GetTotalMachinesInPlay_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_GetTotalMachinesInPlay_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_GetTotalMachinesInPlay_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineStatus">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineStatus" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_GetMachineStatus_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_GetMachineStatus_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_GetMachineStatus_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineDetails">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineDetails" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_GetMachineDetails_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_GetMachineDetails_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_GetMachineDetails_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="GetMachineMeters">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/GetMachineMeters" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_GetMachineMeters_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_GetMachineMeters_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_GetMachineMeters_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="AddPOSPoints">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/AddPOSPoints" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_AddPOSPoints_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_AddPOSPoints_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_AddPOSPoints_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RedeemPOSPoints">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/RedeemPOSPoints" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_RedeemPOSPoints_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_RedeemPOSPoints_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_RedeemPOSPoints_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+    <wsdl:operation name="RefundPOSPoints">
+      <soap12:operation soapAction="http://ebetgroup.com.au/EPSGatewayService/IGateWayService/RefundPOSPoints" style="document" />
+      <wsdl:input>
+        <wsp:PolicyReference URI="#WS_RefundPOSPoints_Input_policy" />
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <wsp:PolicyReference URI="#WS_RefundPOSPoints_output_policy" />
+        <soap12:body use="literal" />
+      </wsdl:output>
+      <wsdl:fault name="FaultDetailsFault">
+        <wsp:PolicyReference URI="#WS_RefundPOSPoints_FaultDetailsFault_Fault" />
+        <soap12:fault use="literal" name="FaultDetailsFault" namespace="" />
+      </wsdl:fault>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="GatewayService">
+    <wsdl:port name="WS" binding="tns:WS">
+      <soap12:address location="http://devdialout2:81/EPSGatewayServiceRedeemX/GatewayService.svc/secure" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://devdialout2:81/EPSGatewayServiceRedeemX/GatewayService.svc/secure</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+              <X509Certificate>MIIB0DCCAT2gAwIBAgIQbXSR7hxJdYBK5JQ3YQIWVTAJBgUrDgMCHQUAMBYxFDASBgNVBAMTC0RFVkRJQUxPVVQyMB4XDTE1MDIxMTAzNTk0NVoXDTIwMDIxMDAzNTk0NVowFjEUMBIGA1UEAxMLREVWRElBTE9VVDIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ14MyyN3yI4NZAioWioQHYpinGvBKzoJqDmbInhlE2XxVz8DlgBOdNBvBLVOkwkwMffZcBObcfBCkOBDmCUQPkXxehUojoWuXYX+3k9ynf9nj/53bJGrGAobc/iuiWD/Fcn0nT4S1ohvDt5cCfpifXMfnWSHN1GAeLhvFcXrjs7AgMBAAGjJzAlMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwQHAwUAsAAAADAJBgUrDgMCHQUAA4GBAAhOgaul/2SVR2bMdInCKWnKppW1XFSmzR7oXWzguyyO+BeK5yJmecidI+LiTxOC0Cz/2s6KzLeZb7xPwKdY9IBr+mS67q80Hnlm0rG7391irLMxHzxUN9Uz7MYDSCH+ukGB7i28gjzzx+oZdgOLGTApPE6kJK90gMgVInP+io/T</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

@@ -1,0 +1,10 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Updater\obj\Debug\Activity.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Updater\obj\Debug\Activity.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Updater\obj\Debug\Alma.Updater_MarkupCompile.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Updater\obj\Debug\Alma.Updater.g.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Updater\bin\Debug\Alma.Updater.exe.config
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Updater\bin\Debug\Alma.Updater.exe
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Updater\bin\Debug\Alma.Updater.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Updater\obj\Debug\Alma.Updater.exe
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Updater\obj\Debug\Alma.Updater.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Updater\obj\Debug\Alma.Updater.csprojResolveAssemblyReference.cache

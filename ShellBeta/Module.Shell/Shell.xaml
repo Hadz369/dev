@@ -1,0 +1,170 @@
+﻿<core:ShellBase  x:Class="Alma.Module.Shell"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:core="clr-namespace:Alma.Core;assembly=Alma.Core"
+             xmlns:Controls="clr-namespace:Alma.Controls;assembly=Alma.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800" 
+             WindowStyle="None" AllowsTransparency="True" Background="Transparent"
+             Closing="Window_Closing" >
+    <core:ShellBase.InputBindings>
+        <KeyBinding Gesture="CTRL+Q" Command="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}, Path=DataContext.KeyBindingCommand}" CommandParameter="CQ" />
+        <KeyBinding Gesture="CTRL+H" Command="{Binding RelativeSource={RelativeSource Mode=FindAncestor, AncestorType={x:Type Window}}, Path=DataContext.KeyBindingCommand}" CommandParameter="CH" />
+    </core:ShellBase.InputBindings>
+
+    <core:ShellBase.Resources>
+        <SolidColorBrush x:Key="SectionGroupHeaderBackground" Color="LightGray" />
+        <SolidColorBrush x:Key="SectionGroupHeaderForeground" Color="Black" />
+        <SolidColorBrush x:Key="ToolBarSeparatorBrush" Color="Gray" />
+
+        <Style TargetType="Controls:dhWidget">
+            <Setter Property="Background" Value="{StaticResource SectionGroupHeaderBackground}" />
+            <Setter Property="Foreground" Value="{StaticResource SectionGroupHeaderForeground}" />
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Controls:dhWidget}">
+                        <DockPanel LastChildFill="True" >
+                            <DockPanel DockPanel.Dock="Top" Background="{TemplateBinding Background}">
+                                <ContentPresenter DockPanel.Dock="Right" ContentSource="HeaderContent" Height="25" />
+                                <ContentPresenter ContentSource="Header" HorizontalAlignment="Left" VerticalAlignment="Center" 
+                                          TextBlock.FontWeight="SemiBold" Margin="5,3,3,3" />
+                            </DockPanel>
+                            <ContentPresenter />
+                        </DockPanel>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+
+        <Style x:Key="QuickSearchTextBoxStyle" BasedOn="{StaticResource {x:Type TextBox}}"
+               TargetType="{x:Type TextBox}">
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type TextBox}">
+                        <Grid>
+                            <ScrollViewer x:Name="PART_ContentHost"
+                                  SnapsToDevicePixels="{TemplateBinding SnapsToDevicePixels}" />
+                            <TextBlock x:Name="textBlock"
+                               Opacity="0.345"
+                               Text="Quick Search"
+                               TextWrapping="Wrap"
+                               Visibility="Hidden" />
+                        </Grid>
+                        <ControlTemplate.Triggers>
+                            <MultiTrigger>
+                                <MultiTrigger.Conditions>
+                                    <Condition Property="IsFocused"
+                                       Value="False" />
+                                    <Condition Property="Text"
+                                       Value="" />
+                                </MultiTrigger.Conditions>
+                                <Setter Property="Visibility"
+                                TargetName="textBlock"
+                                Value="Visible" />
+                            </MultiTrigger>
+                        </ControlTemplate.Triggers>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+        </Style>
+    </core:ShellBase.Resources>
+
+    <Border BorderBrush="Orange" BorderThickness="4" CornerRadius="2" Margin="0,1,0,-1">
+        <Grid x:Name="RootWindow" HorizontalAlignment="Stretch">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="30" />
+                <RowDefinition />
+                <RowDefinition Height="30" />
+            </Grid.RowDefinitions>
+            <Border x:Name="TitleBar" MouseDown="TitleBar_MouseDown" Padding="3" Grid.Row="0">
+                <Grid Background="Transparent">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+
+                    <StackPanel Grid.Column="0" Orientation="Horizontal">
+                        <Button Width="60" Content="Home" />
+                        <Border Margin="6,0,0,0" BorderThickness="1,0,0,0" BorderBrush="{StaticResource ToolBarSeparatorBrush}" Width="1" />
+                        <Button Width="60" Margin="6,0,0,0" Content="Lock" Click="Button_Click" />
+                        <Button Width="60" Margin="6,0,0,0" Content="Override" />
+                        <Border Margin="6,0,0,0" BorderThickness="1,0,0,0" BorderBrush="{StaticResource ToolBarSeparatorBrush}" Width="1" />
+                        <Button x:Name="btnHistory" Width="60" Margin="6,0,0,0" Content="History" />
+                        <TextBlock Margin="6,0,0,0" VerticalAlignment="Center" Text="Module Name" />
+                    </StackPanel>
+
+                    <StackPanel Grid.Column="1" Orientation="Horizontal" HorizontalAlignment="Right">
+                        <Border Height="23" Width="200" BorderBrush="{x:Static SystemColors.ControlLightBrush}" BorderThickness="1" Background="White">
+                            <Grid>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition x:Name="navigationColumn" />
+                                    <ColumnDefinition Width="Auto" />
+                                </Grid.ColumnDefinitions>
+                                <TextBox x:Name="tbxQuickSearch" Margin="5,0,0,0" Style="{StaticResource QuickSearchTextBoxStyle}" VerticalAlignment="Center" 
+                                     GotFocus="tbxQuickSearch_GotFocus" LostFocus="tbxQuickSearch_LostFocus" />
+                                <Button x:Name="btnQuickSearch"  Grid.Column="1" Content="S" Width="21" Height="21" Background="Transparent" BorderBrush="Transparent" VerticalAlignment="Top" 
+                                    Click="btnQuickSearch_Click" />
+                            </Grid>
+                        </Border>
+                        <Border Margin="6,0,0,0" BorderThickness="1,0,0,0" BorderBrush="{StaticResource ToolBarSeparatorBrush}" Width="1" />
+                        <Button x:Name="MinButton" Width="28" Margin="6,0,0,0" DockPanel.Dock="Right" Click="MinimizeButton_Click" Content="_"/>
+                        <Button x:Name="MaxButton" Width="28" Margin="6,0,0,0" DockPanel.Dock="Right" Click="MaximizeButton_Click" Content="[]" />
+                        <Button x:Name="CloseButton" Width="28" Margin="6,0,0,0" DockPanel.Dock="Right" Click="CloseButton_Click" Content="X"/>
+                    </StackPanel>
+                </Grid>
+            </Border>
+            <Grid Grid.Row="1" Margin="3,0,3,3">
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition Width="200"/>
+                    <ColumnDefinition Width="3"/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+                <DockPanel Grid.Column="0">
+                    <Controls:dhWidget Header="Action" Height="150" DockPanel.Dock="Top" />
+                    <Controls:dhWidget Header="Function" DockPanel.Dock="Top" />
+                </DockPanel>
+
+                <GridSplitter Grid.Column="1" HorizontalAlignment="Stretch" VerticalAlignment="Stretch"/>
+
+                <Grid Grid.Column="2">
+                    <Grid.RowDefinitions>
+                        <RowDefinition/>
+                        <RowDefinition Height="3"/>
+                        <RowDefinition Height="160"/>
+                    </Grid.RowDefinitions>
+                    <TabControl x:Name="tcModules" Grid.Row="0"/>
+                    <GridSplitter Grid.Row="1" HorizontalAlignment="Stretch"  />
+                    <ListBox x:Name="lbLogView" Grid.Row="2"/>
+                </Grid>
+            </Grid>
+            <StatusBar Grid.Row="2" Background="Orange" >
+                <StatusBar.ItemsPanel>
+                    <ItemsPanelTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="100" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="*" />
+                                <ColumnDefinition Width="Auto" />
+                                <ColumnDefinition Width="100" />
+                            </Grid.ColumnDefinitions>
+                        </Grid>
+                    </ItemsPanelTemplate>
+                </StatusBar.ItemsPanel>
+                <StatusBarItem>
+                    <TextBlock Name="lblCursorPosition" />
+                </StatusBarItem>
+                <Separator Grid.Column="1" />
+                <StatusBarItem Grid.Column="2">
+                    <TextBlock Text="Message Placeholder" />
+                </StatusBarItem>
+                <Separator Grid.Column="3" />
+                <StatusBarItem Grid.Column="4">
+                    <ProgressBar Value="50" Width="90" Height="16" />
+                </StatusBarItem>
+            </StatusBar>
+        </Grid>
+    </Border>
+</core:ShellBase>

@@ -1,0 +1,12 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Alma.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ShellFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">Module.Shell.dll</Value>
+    </Setting>
+    <Setting Name="WaterMarkImage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/image/waves.jpg</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruby.Core", "Ruby.Core\Ruby.Core.csproj", "{0933C2B9-D493-4C03-ABC6-6C6BBC391378}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruby.Data.Core", "Ruby.Data.Core\Ruby.Data.Core.csproj", "{2A3BB49E-052D-4B3B-A2C1-78BE4E87F065}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ruby.Serial.Core", "Ruby.Serial.Core\Ruby.Serial.Core.csproj", "{E09997E4-57FD-4F0A-9C55-9C6BB2490D01}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0933C2B9-D493-4C03-ABC6-6C6BBC391378}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0933C2B9-D493-4C03-ABC6-6C6BBC391378}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0933C2B9-D493-4C03-ABC6-6C6BBC391378}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0933C2B9-D493-4C03-ABC6-6C6BBC391378}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A3BB49E-052D-4B3B-A2C1-78BE4E87F065}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A3BB49E-052D-4B3B-A2C1-78BE4E87F065}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A3BB49E-052D-4B3B-A2C1-78BE4E87F065}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A3BB49E-052D-4B3B-A2C1-78BE4E87F065}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E09997E4-57FD-4F0A-9C55-9C6BB2490D01}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E09997E4-57FD-4F0A-9C55-9C6BB2490D01}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E09997E4-57FD-4F0A-9C55-9C6BB2490D01}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E09997E4-57FD-4F0A-9C55-9C6BB2490D01}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

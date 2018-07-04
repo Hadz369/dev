@@ -1,0 +1,8 @@
+C:\private\dev\project\VS\Metro\Core\Metro.Serial.Core\obj\Debug\Metro.Serial.Core.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Metro\Core\Metro.Serial.Core\obj\Debug\eBet.Serial.Core.dll
+C:\private\dev\project\VS\Metro\Core\Metro.Serial.Core\obj\Debug\eBet.Serial.Core.pdb
+C:\private\dev\project\VS\Metro\Develop.Bin\framework\metro.serial.core.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\framework\metro.serial.core.pdb
+C:\private\dev\project\VS\Metro\framework\metro.serial.core\obj\Debug\metro.serial.core.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Metro\framework\metro.serial.core\obj\Debug\metro.serial.core.dll
+C:\private\dev\project\VS\Metro\framework\metro.serial.core\obj\Debug\metro.serial.core.pdb

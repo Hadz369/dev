@@ -1,0 +1,5 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Event\bin\Debug\Alma.Event.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Event\bin\Debug\Alma.Event.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Event\obj\Debug\Alma.Event.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Event\obj\Debug\Alma.Event.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Event\obj\Debug\Alma.Event.csprojResolveAssemblyReference.cache

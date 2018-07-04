@@ -1,0 +1,9 @@
+C:\private\dev\project\VS\Practice\TestWpfApplication\obj\Debug\TestWpfApplication.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Practice\TestWpfApplication\obj\Debug\MainWindow.baml
+C:\private\dev\project\VS\Practice\TestWpfApplication\obj\Debug\MainWindow.g.cs
+C:\private\dev\project\VS\Practice\TestWpfApplication\obj\Debug\App.g.cs
+C:\private\dev\project\VS\Practice\TestWpfApplication\obj\Debug\TestWpfApplication_MarkupCompile.cache
+C:\private\dev\project\VS\Practice\TestWpfApplication\obj\Debug\TestWpfApplication.g.resources
+C:\private\dev\project\VS\Practice\TestWpfApplication\obj\Debug\TestWpfApplication.Properties.Resources.resources
+C:\private\dev\project\VS\Practice\TestWpfApplication\obj\Debug\TestWpfApplication.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\Practice\TestWpfApplication\bin\Debug\TestWpfApplication.exe.config

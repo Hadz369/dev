@@ -1,0 +1,12 @@
+C:\private\dev\project\VS\TabControlTest\Reports\bin\Debug\Reports.exe.config
+C:\private\dev\project\VS\TabControlTest\Reports\bin\Debug\Reports.exe
+C:\private\dev\project\VS\TabControlTest\Reports\bin\Debug\Reports.pdb
+C:\private\dev\project\VS\TabControlTest\Reports\obj\Debug\Reports.Form1.resources
+C:\private\dev\project\VS\TabControlTest\Reports\obj\Debug\Reports.Properties.Resources.resources
+C:\private\dev\project\VS\TabControlTest\Reports\obj\Debug\Reports.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\TabControlTest\Reports\obj\Debug\RdlCompile.cache
+C:\private\dev\project\VS\TabControlTest\Reports\obj\Debug\RdlCompile.compiled
+C:\private\dev\project\VS\TabControlTest\Reports\obj\Debug\Reports.exe
+C:\private\dev\project\VS\TabControlTest\Reports\obj\Debug\Reports.pdb
+C:\private\dev\project\VS\TabControlTest\Reports\obj\Debug\Reports.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\TabControlTest\Reports\bin\Debug\Report2.rdlc

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Ebet.Common.QGCEGatewayMessages" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Ebet.Common.QGCEGatewayMessages" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://devdialout2:28100/EPSGatewayService/GatewayService.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/Ebet.Common" />
+  <xs:complexType name="MetersReply">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MeterCollection" nillable="true" type="tns:ArrayOfMeterSnapshot" />
+      <xs:element minOccurs="0" name="OperationalResult" type="tns:QueryResult" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MetersReply" nillable="true" type="tns:MetersReply" />
+  <xs:complexType name="ArrayOfMeterSnapshot">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MeterSnapshot" nillable="true" type="tns:MeterSnapshot" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMeterSnapshot" nillable="true" type="tns:ArrayOfMeterSnapshot" />
+  <xs:complexType name="MeterSnapshot">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CurrentMeters" nillable="true" type="tns:ArrayOfMeterDetail" />
+      <xs:element xmlns:q1="http://schemas.datacontract.org/2004/07/Ebet.Common" minOccurs="0" name="EgmMode" type="q1:EgmModes" />
+      <xs:element xmlns:q2="http://schemas.datacontract.org/2004/07/Ebet.Common" minOccurs="0" name="EgmState" type="q2:EgmStatuses" />
+      <xs:element minOccurs="0" name="MachineID" type="xs:int" />
+      <xs:element minOccurs="0" name="MemberID" type="xs:unsignedInt" />
+      <xs:element xmlns:q3="http://schemas.datacontract.org/2004/07/Ebet.Common" minOccurs="0" name="MeterType" type="q3:EgmMeterType" />
+      <xs:element minOccurs="0" name="PlayerTurnoverInSession" type="xs:unsignedInt" />
+      <xs:element minOccurs="0" name="SnapshotTime" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MeterSnapshot" nillable="true" type="tns:MeterSnapshot" />
+  <xs:complexType name="ArrayOfMeterDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MeterDetail" nillable="true" type="tns:MeterDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMeterDetail" nillable="true" type="tns:ArrayOfMeterDetail" />
+  <xs:complexType name="MeterDetail">
+    <xs:sequence>
+      <xs:element xmlns:q4="http://schemas.datacontract.org/2004/07/Ebet.Common" minOccurs="0" name="ID" type="q4:EgmMeterId" />
+      <xs:element minOccurs="0" name="LastChangedTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="PreviousValue" type="xs:unsignedInt" />
+      <xs:element minOccurs="0" name="Value" type="xs:unsignedInt" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MeterDetail" nillable="true" type="tns:MeterDetail" />
+  <xs:simpleType name="QueryResult">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ok" />
+      <xs:enumeration value="noMachines" />
+      <xs:enumeration value="egmNotFound" />
+      <xs:enumeration value="serverBusy" />
+      <xs:enumeration value="otherError" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="QueryResult" nillable="true" type="tns:QueryResult" />
+</xs:schema>

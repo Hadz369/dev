@@ -1,0 +1,10 @@
+C:\private\dev\project\VS\Framework\Framework.Data\bin\Debug\Hadz369.Data.dll
+C:\private\dev\project\VS\Framework\Framework.Data\bin\Debug\Hadz369.Data.pdb
+C:\private\dev\project\VS\Framework\Framework.Data\obj\Debug\Hadz369.Data.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Framework\Framework.Data\obj\Debug\Hadz369.Data.dll
+C:\private\dev\project\VS\Framework\Framework.Data\obj\Debug\Hadz369.Data.pdb
+C:\private\dev\project\VS\Framework\Hadz369.Data\bin\Debug\Hadz369.Data.dll
+C:\private\dev\project\VS\Framework\Hadz369.Data\bin\Debug\Hadz369.Data.pdb
+C:\private\dev\project\VS\Framework\Hadz369.Data\obj\Debug\Hadz369.Data.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Framework\Hadz369.Data\obj\Debug\Hadz369.Data.dll
+C:\private\dev\project\VS\Framework\Hadz369.Data\obj\Debug\Hadz369.Data.pdb

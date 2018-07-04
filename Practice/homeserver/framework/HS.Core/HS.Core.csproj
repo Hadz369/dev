@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0933C2B9-D493-4C03-ABC6-6C6BBC391378}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HS</RootNamespace>
+    <AssemblyName>HS.Core</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>..\..\bin\framework\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.ServiceModel" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="base\BusinessServiceBase.cs" />
+    <Compile Include="base\StatisticsBase.cs" />
+    <Compile Include="database\DbConnection.cs" />
+    <Compile Include="database\DbConnectionBroker.cs" />
+    <Compile Include="database\DbHandler.cs" />
+    <Compile Include="interface\IBusinessService.cs" />
+    <Compile Include="logging\ServiceMessage.cs" />
+    <Compile Include="logging\SysInfo.cs" />
+    <Compile Include="manager\Cache.cs" />
+    <Compile Include="manager\AuthManager.cs" />
+    <Compile Include="helper\EventHelper.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="logging\Tracer.cs" />
+    <Compile Include="RunTime.cs" />
+    <Compile Include="manager\SessionManager.cs" />
+    <Compile Include="utility\Parameter.cs" />
+    <Compile Include="utility\XmlSerialiser.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\HS.Core.Shared\HS.Core.Shared.csproj">
+      <Project>{3a807e45-45f3-4d9e-808f-bed3f131ea5b}</Project>
+      <Name>HS.Core.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if '$(TeamBuild)'=='True' exit 0
+
+REM -------- Edit --------
+SET RELEASEPATH=$(ProjectDir)..\..\bin\framework
+
+REM ----- Don't Edit -----
+SET BINPATH=$(ProjectDir)$(OutDir)
+SET BINFILE=$(TargetFileName)
+SET FILENAME=$(TargetName)
+
+echo Copying assembly file to %25RELEASEPATH%25
+xcopy /y "%25BINPATH%25%25BINFILE%25" "%25RELEASEPATH%25"
+
+if exist "%25BINPATH%25%25BINFILE%25.config" (
+  echo Copying config file
+  xcopy /y "%25BINPATH%25%25BINFILE%25.config" "%25RELEASEPATH%25"
+)
+
+if exist "%25BINPATH%25%25FILENAME%25.pdb" (
+  echo Copying debug file
+  xcopy /y "%25BINPATH%25%25FILENAME%25.pdb" "%25RELEASEPATH%25"
+)
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

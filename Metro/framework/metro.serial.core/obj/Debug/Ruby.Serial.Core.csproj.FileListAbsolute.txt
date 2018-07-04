@@ -1,0 +1,7 @@
+C:\private\dev\project\VS\ClientServer\Develop.Bin\framework\eBet.Serial.Core.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\framework\eBet.Serial.Core.pdb
+C:\private\dev\project\VS\ClientServer\Core\eBet.Serial.Core\obj\Debug\eBet.Serial.Core.dll
+C:\private\dev\project\VS\ClientServer\Core\eBet.Serial.Core\obj\Debug\eBet.Serial.Core.pdb
+C:\private\dev\project\VS\ClientServer\Core\Metro.Serial.Core\obj\Debug\eBet.Serial.Core.dll
+C:\private\dev\project\VS\ClientServer\Core\Metro.Serial.Core\obj\Debug\eBet.Serial.Core.pdb
+C:\private\dev\project\VS\ClientServer\Core\Metro.Serial.Core\obj\Debug\Metro.Serial.Core.csprojResolveAssemblyReference.cache

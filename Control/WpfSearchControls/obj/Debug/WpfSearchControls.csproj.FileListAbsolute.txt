@@ -1,0 +1,15 @@
+C:\private\dev\project\VS\Control\WpfSearchControls\bin\Debug\WpfSearchControls.dll
+C:\private\dev\project\VS\Control\WpfSearchControls\bin\Debug\WpfSearchControls.pdb
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\ListSearch.baml
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\AddressEditor.g.cs
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\ListSearch.g.cs
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\WpfSearchControls_MarkupCompile.cache
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\WpfSearchControls_MarkupCompile.lref
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\AddressEditor.baml
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\WpfSearchControls.g.resources
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\WpfSearchControls.Properties.Resources.resources
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\WpfSearchControls.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\WpfSearchControls.dll
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\WpfSearchControls.pdb
+C:\private\dev\project\VS\Control\WpfSearchControls\obj\Debug\WpfSearchControls.csprojResolveAssemblyReference.cache

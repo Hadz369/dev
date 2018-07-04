@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://ebetgroup.com.au/EPSGatewayService" elementFormDefault="qualified" targetNamespace="http://ebetgroup.com.au/EPSGatewayService" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="GetMemberDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="badgeNumber" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMemberDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetMemberDetailsResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="FaultDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Reason" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="FaultDetails" nillable="true" type="tns:FaultDetails" />
+  <xs:element name="GetUnfinancial">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="subsPaidTill" type="xs:dateTime" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetUnfinancialResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetUnfinancialResult" nillable="true" type="tns:ArrayOfMemberUnfinancial" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfMemberUnfinancial">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MemberUnfinancial" nillable="true" type="tns:MemberUnfinancial" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMemberUnfinancial" nillable="true" type="tns:ArrayOfMemberUnfinancial" />
+  <xs:complexType name="MemberUnfinancial">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="AmountDue" type="xs:decimal" />
+      <xs:element minOccurs="0" name="BadgeNumber" type="xs:int" />
+      <xs:element minOccurs="0" name="Rate_Number" type="xs:short" />
+      <xs:element minOccurs="0" name="Subs_Paid_Till" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="Type" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MemberUnfinancial" nillable="true" type="tns:MemberUnfinancial" />
+  <xs:element name="InternetReceipt">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="badgeNumber" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="InternetReceiptResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="InternetReceiptResult" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMemberActivity_FullCardData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="code" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="cardData" nillable="true" type="xs:string" />
+        <xs:element minOccurs="0" name="entryTime" type="xs:dateTime" />
+        <xs:element minOccurs="0" name="group" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMemberActivity_FullCardDataResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetMemberActivity_FullCardDataResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTotalMachinesInPlay">
+    <xs:complexType>
+      <xs:sequence />
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetTotalMachinesInPlayResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetTotalMachinesInPlayResult" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMachineStatus">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="clubID" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMachineStatusResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetMachineStatusResult" nillable="true" type="tns:ArrayOfMachineStatus" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfMachineStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MachineStatus" nillable="true" type="tns:MachineStatus" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMachineStatus" nillable="true" type="tns:ArrayOfMachineStatus" />
+  <xs:complexType name="MachineStatus">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ClubID" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="IsEGMInUse" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MachineStatus" nillable="true" type="tns:MachineStatus" />
+  <xs:element name="GetMachineDetails">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="serial" nillable="true" type="xs:string" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMachineDetailsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetMachineDetailsResult" nillable="true" type="tns:ArrayOfMachineDetails" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfMachineDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MachineDetails" nillable="true" type="tns:MachineDetails" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMachineDetails" nillable="true" type="tns:ArrayOfMachineDetails" />
+  <xs:complexType name="MachineDetails">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="Denomination" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Floor" type="xs:int" />
+      <xs:element minOccurs="0" name="MID" type="xs:int" />
+      <xs:element minOccurs="0" name="Manufacture" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Name" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Serial" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="Status" nillable="true" type="xs:string" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MachineDetails" nillable="true" type="tns:MachineDetails" />
+  <xs:element name="GetMachineMeters">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="mID" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="GetMachineMetersResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="GetMachineMetersResult" nillable="true" type="tns:ArrayOfMachineMeters" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="ArrayOfMachineMeters">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="MachineMeters" nillable="true" type="tns:MachineMeters" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfMachineMeters" nillable="true" type="tns:ArrayOfMachineMeters" />
+  <xs:complexType name="MachineMeters">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CancelCredit_C" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CancelCredit_O" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CashIn_C" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CashIn_O" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CashOut_C" type="xs:decimal" />
+      <xs:element minOccurs="0" name="CashOut_O" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Cashbox_C" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Cashbox_O" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MID" type="xs:int" />
+      <xs:element minOccurs="0" name="MeterUpdatedAt" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="MoneyIn_C" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MoneyIn_O" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MoneyOut_C" type="xs:decimal" />
+      <xs:element minOccurs="0" name="MoneyOut_O" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Stroke_C" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Stroke_O" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Turnover_C" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Turnover_O" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Wins_C" type="xs:decimal" />
+      <xs:element minOccurs="0" name="Wins_O" type="xs:decimal" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="MachineMeters" nillable="true" type="tns:MachineMeters" />
+  <xs:element name="AddPOSPoints">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="badgeNumber" type="xs:int" />
+        <xs:element minOccurs="0" name="bptsAdjust" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="AddPOSPointsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="AddPOSPointsResult" nillable="true" type="tns:POSPointsResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:complexType name="POSPointsResult">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ErrorMsg" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="NewPtsBalance" type="xs:int" />
+      <xs:element minOccurs="0" name="Result" type="xs:boolean" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="POSPointsResult" nillable="true" type="tns:POSPointsResult" />
+  <xs:element name="RedeemPOSPoints">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="badgeNumber" type="xs:int" />
+        <xs:element minOccurs="0" name="bptsAdjust" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RedeemPOSPointsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RedeemPOSPointsResult" nillable="true" type="tns:POSPointsResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RefundPOSPoints">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="badgeNumber" type="xs:int" />
+        <xs:element minOccurs="0" name="bptsAdjust" type="xs:int" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+  <xs:element name="RefundPOSPointsResponse">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element minOccurs="0" name="RefundPOSPointsResult" nillable="true" type="tns:POSPointsResult" />
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+</xs:schema>

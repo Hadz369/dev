@@ -1,0 +1,5 @@
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Core.Data.dll
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Core.Data.pdb
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Core.Data\obj\Release\eBet.Core.Data.dll
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Core.Data\obj\Release\eBet.Core.Data.pdb
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Core.Data\obj\Release\eBet.Core.Data.csprojResolveAssemblyReference.cache

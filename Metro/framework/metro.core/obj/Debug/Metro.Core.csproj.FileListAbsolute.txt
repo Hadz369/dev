@@ -1,0 +1,7 @@
+C:\private\dev\project\VS\Metro\Develop.Bin\framework\Metro.Core.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\framework\Metro.Core.pdb
+C:\private\dev\project\VS\Metro\Core\Metro.Core\obj\Debug\Metro.Core.dll
+C:\private\dev\project\VS\Metro\Core\Metro.Core\obj\Debug\Metro.Core.pdb
+C:\private\dev\project\VS\Metro\framework\metro.core\obj\Debug\metro.core.dll
+C:\private\dev\project\VS\Metro\framework\metro.core\obj\Debug\metro.core.pdb
+C:\private\dev\project\VS\Metro\framework\metro.core\obj\Debug\Metro.Core.csprojResolveAssemblyReference.cache

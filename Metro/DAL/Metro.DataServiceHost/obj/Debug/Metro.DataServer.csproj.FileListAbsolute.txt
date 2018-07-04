@@ -1,0 +1,16 @@
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\obj\Debug\DataServer.exe
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\obj\Debug\DataServer.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\DataServer.exe.config
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\DataServer.exe
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\DataServer.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\Metro.Core.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\Metro.Data.Core.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\Metro.Core.Shared.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\Metro.Core.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\Metro.Data.Core.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\Metro.Data.Core.xml
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\Metro.Core.Shared.pdb
+C:\private\dev\project\VS\Metro\Develop.Bin\DataServer.exe.config
+C:\private\dev\project\VS\Metro\Develop.Bin\DataServer.exe
+C:\private\dev\project\VS\Metro\Develop.Bin\DataServer.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\obj\Debug\Metro.DataServer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,10 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Core.Control\obj\Debug\UserControl1.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Core.Control\obj\Debug\UserControl1.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Core.Control\obj\Debug\Core.Control_MarkupCompile.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Core.Control\obj\Debug\Core.Control.g.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Core.Control\obj\Debug\Core.Control.Properties.Resources.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Core.Control\obj\Debug\Core.Control.csproj.GenerateResource.Cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\Core.Control.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\Core.Control.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Core.Control\obj\Debug\Core.Control.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Core.Control\obj\Debug\Core.Control.pdb

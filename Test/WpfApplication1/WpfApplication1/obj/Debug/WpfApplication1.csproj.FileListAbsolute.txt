@@ -1,0 +1,11 @@
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.exe
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\bin\Debug\WpfApplication1.pdb
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.baml
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\obj\Debug\MainWindow.g.cs
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\obj\Debug\App.g.cs
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1_MarkupCompile.cache
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.g.resources
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.Properties.Resources.resources
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.exe
+C:\private\dev\project\VS\WpfApplication1\WpfApplication1\obj\Debug\WpfApplication1.pdb

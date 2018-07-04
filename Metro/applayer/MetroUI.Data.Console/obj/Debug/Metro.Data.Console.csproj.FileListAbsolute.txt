@@ -1,0 +1,15 @@
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\obj\Debug\DataConsole.exe
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\obj\Debug\DataConsole.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\DataConsole.exe.config
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\DataConsole.exe
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\DataConsole.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\Metro.Core.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\Metro.Data.Core.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\Metro.Data.System.Shared.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\Metro.Core.Shared.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\Metro.Core.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\Metro.Data.Core.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\Metro.Data.Core.xml
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\Metro.Data.System.Shared.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\bin\Debug\Metro.Core.Shared.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Console\obj\Debug\Metro.Data.Console.csprojResolveAssemblyReference.cache

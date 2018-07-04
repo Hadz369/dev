@@ -1,0 +1,4 @@
+C:\private\dev\project\VS\Metro\Develop.Bin\shared\Metro.Service.System.Shared.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\shared\Metro.Service.System.Shared.pdb
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.System.Shared\obj\Debug\Metro.Service.System.Shared.dll
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.System.Shared\obj\Debug\Metro.Service.System.Shared.pdb

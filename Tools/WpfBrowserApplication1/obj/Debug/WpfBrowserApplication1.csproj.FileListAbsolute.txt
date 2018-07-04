@@ -1,0 +1,17 @@
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\bin\Debug\WpfBrowserApplication1.exe.manifest
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\bin\Debug\WpfBrowserApplication1.xbap
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\bin\Debug\WpfBrowserApplication1.exe
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\bin\Debug\WpfBrowserApplication1.pdb
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\Page1.baml
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\Page1.g.cs
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\App.g.cs
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1_MarkupCompile.cache
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.g.resources
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.Properties.Resources.resources
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.TrustInfo.xml
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.exe.manifest
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.xbap
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.exe
+C:\private\dev\project\VS\Tools\WpfBrowserApplication1\obj\Debug\WpfBrowserApplication1.pdb

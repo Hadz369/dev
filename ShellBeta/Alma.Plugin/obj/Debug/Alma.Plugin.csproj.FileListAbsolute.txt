@@ -1,0 +1,6 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin.Plugin\bin\Debug\FlexAdmin.Plugin.dll.config
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin.Plugin\bin\Debug\FlexAdmin.Plugin.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin.Plugin\bin\Debug\FlexAdmin.Plugin.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin.Plugin\obj\Debug\Alma.Plugin.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin.Plugin\obj\Debug\FlexAdmin.Plugin.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin.Plugin\obj\Debug\FlexAdmin.Plugin.pdb

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8C846A64-2AFB-4861-AF4E-63C6D8CF4EEA}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>hsserver</RootNamespace>
+    <AssemblyName>hsserver</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="hsserver.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\hsdata\hsdata.csproj">
+      <Project>{31C41BE8-90F8-4B25-B958-35272718A3B5}</Project>
+      <Name>hsdata</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\hsevent\hsevent.csproj">
+      <Project>{86AB7CF5-BA86-457C-AD27-30C36B72AAE3}</Project>
+      <Name>hsevent</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\hsnetwork\hsnetwork.csproj">
+      <Project>{FE84D513-9B90-4E6B-9A22-6FF37FA9EB7F}</Project>
+      <Name>hsnetwork</Name>
+    </ProjectReference>
+  </ItemGroup>
+</Project>

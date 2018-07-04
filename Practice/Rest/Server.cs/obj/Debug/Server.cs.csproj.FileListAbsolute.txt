@@ -1,0 +1,9 @@
+C:\private\dev\project\VS\Practice\Rest\Server.cs\bin\Debug\Server.cs.exe
+C:\private\dev\project\VS\Practice\Rest\Server.cs\bin\Debug\Server.cs.pdb
+C:\private\dev\project\VS\Practice\Rest\Server.cs\obj\Debug\Server.cs.pdb
+C:\private\dev\project\VS\Practice\Rest\Server.cs\bin\Debug\Server.cs.exe.config
+C:\temp\build\Server.cs.pdb
+C:\private\dev\project\VS\Practice\Rest\Server.cs\obj\Debug\Server.cs.csprojResolveAssemblyReference.cache
+C:\temp\build\Server.cs.dll.config
+C:\temp\build\Server.cs.dll
+C:\private\dev\project\VS\Practice\Rest\Server.cs\obj\Debug\Server.cs.dll

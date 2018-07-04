@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CryptDiaryHashtags>
+	<Hashtag>
+		<Text>Tagebucheintrag</Text>
+		<Date>18.5.2016</Date>
+		<Date>23.5.2016</Date>
+	</Hashtag>
+	<Hashtag>
+		<Text>another Hashtag</Text>
+		<Date>1.6.2016</Date>
+		<Date>2.6.2016</Date>
+	</Hashtag>
+</CryptDiaryHashtags>

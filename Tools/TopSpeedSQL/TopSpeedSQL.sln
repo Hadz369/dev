@@ -1,0 +1,36 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TopSpeedSQL", "TopSpeedSQL\TopSpeedSQL.csproj", "{A784CB8D-5E19-4BB2-B7BE-DDEE1F2F6F3D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FlexAdmin.Core", "..\..\..\..\work\source\C#\class\FlexAdmin.Core\FlexAdmin.Core.csproj", "{D6EEDCD0-98FC-41B4-9A70-FD365A36ECB3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		BMM|Any CPU = BMM|Any CPU
+		Debug|Any CPU = Debug|Any CPU
+		Regulatory|Any CPU = Regulatory|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A784CB8D-5E19-4BB2-B7BE-DDEE1F2F6F3D}.BMM|Any CPU.ActiveCfg = Release|Any CPU
+		{A784CB8D-5E19-4BB2-B7BE-DDEE1F2F6F3D}.BMM|Any CPU.Build.0 = Release|Any CPU
+		{A784CB8D-5E19-4BB2-B7BE-DDEE1F2F6F3D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A784CB8D-5E19-4BB2-B7BE-DDEE1F2F6F3D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A784CB8D-5E19-4BB2-B7BE-DDEE1F2F6F3D}.Regulatory|Any CPU.ActiveCfg = Release|Any CPU
+		{A784CB8D-5E19-4BB2-B7BE-DDEE1F2F6F3D}.Regulatory|Any CPU.Build.0 = Release|Any CPU
+		{A784CB8D-5E19-4BB2-B7BE-DDEE1F2F6F3D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A784CB8D-5E19-4BB2-B7BE-DDEE1F2F6F3D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6EEDCD0-98FC-41B4-9A70-FD365A36ECB3}.BMM|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EEDCD0-98FC-41B4-9A70-FD365A36ECB3}.BMM|Any CPU.Build.0 = Release|Any CPU
+		{D6EEDCD0-98FC-41B4-9A70-FD365A36ECB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6EEDCD0-98FC-41B4-9A70-FD365A36ECB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6EEDCD0-98FC-41B4-9A70-FD365A36ECB3}.Regulatory|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EEDCD0-98FC-41B4-9A70-FD365A36ECB3}.Regulatory|Any CPU.Build.0 = Release|Any CPU
+		{D6EEDCD0-98FC-41B4-9A70-FD365A36ECB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6EEDCD0-98FC-41B4-9A70-FD365A36ECB3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

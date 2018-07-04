@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Member.Shared\bin\Debug\Ruby.Data.Member.Shared.dll
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Member.Shared\bin\Debug\Ruby.Data.Member.Shared.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Member.Shared\obj\Debug\Ruby.Data.Member.Shared.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Member.Shared\obj\Debug\Ruby.Data.Member.Shared.dll
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Member.Shared\obj\Debug\Ruby.Data.Member.Shared.pdb

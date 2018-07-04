@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\Practice\WcfClientServer\build\tpShared.dll
+C:\private\dev\project\VS\Practice\WcfClientServer\build\tpShared.pdb
+C:\private\dev\project\VS\Practice\WcfClientServer\tpContract\obj\Debug\tpShared.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Practice\WcfClientServer\tpContract\obj\Debug\tpShared.dll
+C:\private\dev\project\VS\Practice\WcfClientServer\tpContract\obj\Debug\tpShared.pdb

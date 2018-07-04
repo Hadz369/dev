@@ -1,0 +1,4 @@
+C:\private\dev\project\VS\StripCDataTags\bin\Debug\StripCDataTags.exe
+C:\private\dev\project\VS\StripCDataTags\bin\Debug\StripCDataTags.pdb
+C:\private\dev\project\VS\StripCDataTags\obj\Debug\StripCDataTags.exe
+C:\private\dev\project\VS\StripCDataTags\obj\Debug\StripCDataTags.pdb

@@ -1,0 +1,16 @@
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\bin\Debug\FrameworkTestHarness.exe
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\bin\Debug\FrameworkTestHarness.pdb
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\bin\Debug\Hadz369.Data.dll
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\bin\Debug\Hadz369.Event.dll
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\bin\Debug\Hadz369.Data.pdb
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\bin\Debug\Hadz369.Event.pdb
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\obj\Debug\FrameworkTestHarness.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\obj\Debug\MainWindow.baml
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\obj\Debug\MainWindow.g.cs
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\obj\Debug\App.g.cs
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\obj\Debug\FrameworkTestHarness_MarkupCompile.cache
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\obj\Debug\FrameworkTestHarness.g.resources
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\obj\Debug\FrameworkTestHarness.Properties.Resources.resources
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\obj\Debug\FrameworkTestHarness.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\obj\Debug\FrameworkTestHarness.exe
+C:\private\dev\project\VS\TestHarness\FrameworkTestHarness\obj\Debug\FrameworkTestHarness.pdb

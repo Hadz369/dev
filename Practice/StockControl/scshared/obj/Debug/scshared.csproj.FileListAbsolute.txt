@@ -1,0 +1,5 @@
+Z:\pub\project\vs\StockControl\scshared\bin\Debug\scshared.dll
+Z:\pub\project\vs\StockControl\scshared\bin\Debug\scshared.pdb
+Z:\pub\project\vs\StockControl\scshared\obj\Debug\ResolveAssemblyReference.cache
+Z:\pub\project\vs\StockControl\scshared\obj\Debug\scshared.dll
+Z:\pub\project\vs\StockControl\scshared\obj\Debug\scshared.pdb

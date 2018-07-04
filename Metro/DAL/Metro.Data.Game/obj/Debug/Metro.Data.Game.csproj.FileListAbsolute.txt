@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\Metro\Develop.Bin\DAL\Metro.Data.Game.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\DAL\Metro.Data.Game.pdb
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Game\obj\Debug\Metro.Data.Game.dll
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Game\obj\Debug\Metro.Data.Game.pdb
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Game\obj\Debug\Metro.Data.Game.csprojResolveAssemblyReference.cache

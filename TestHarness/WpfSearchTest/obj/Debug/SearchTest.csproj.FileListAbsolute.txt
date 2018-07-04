@@ -1,0 +1,15 @@
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\bin\Debug\SearchTest.exe.config
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\bin\Debug\SearchTest.exe
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\bin\Debug\SearchTest.pdb
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\bin\Debug\WpfSearchControls.dll
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\bin\Debug\WpfSearchControls.pdb
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\obj\Debug\SearchTest.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\obj\Debug\MainWindow.baml
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\obj\Debug\MainWindow.g.cs
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\obj\Debug\App.g.cs
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\obj\Debug\SearchTest_MarkupCompile.cache
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\obj\Debug\SearchTest.g.resources
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\obj\Debug\SearchTest.Properties.Resources.resources
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\obj\Debug\SearchTest.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\obj\Debug\SearchTest.exe
+C:\private\dev\project\VS\TestHarness\WpfSearchTest\obj\Debug\SearchTest.pdb

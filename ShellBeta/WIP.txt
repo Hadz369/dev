@@ -1,0 +1,9 @@
+20140919
+Created some dummy modules and implemented the module load manager.
+Created a trace logger and implemented.
+
+TODO
+Add some functionality to the test modules to display on the screen
+Define the module names in an array to simulate database file name defined loading
+Implement the module manager client in the ModuleBase and register modules
+Add some buttons and text boxes to allow entry of a module defn and some tet to send messages between modules.

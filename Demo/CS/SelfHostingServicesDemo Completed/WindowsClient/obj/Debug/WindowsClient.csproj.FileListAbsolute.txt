@@ -1,0 +1,53 @@
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\WindowsClient\bin\Debug\WindowsClient.exe.config
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\WindowsClient\bin\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\WindowsClient\bin\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\WindowsClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\WindowsClient\obj\Debug\WindowsClient.Form1.resources
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\WindowsClient\obj\Debug\WindowsClient.Properties.Resources.resources
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\WindowsClient\obj\Debug\WindowsClient.csproj.GenerateResource.Cache
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\WindowsClient\obj\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\WindowsClient\obj\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISDemo\WindowsClient\bin\Debug\WindowsClient.exe.config
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISDemo\WindowsClient\obj\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISDemo\WindowsClient\obj\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\WindowsClient\obj\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\WindowsClient\obj\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\WindowsClient\bin\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\WindowsClient\bin\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\WindowsClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\WindowsClient\obj\Debug\WindowsClient.Form1.resources
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\WindowsClient\obj\Debug\WindowsClient.Properties.Resources.resources
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\WindowsClient\obj\Debug\WindowsClient.csproj.GenerateResource.Cache
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\WindowsClient\obj\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\WindowsClient\obj\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\WindowsClient\bin\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\WindowsClient\bin\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\WindowsClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\WindowsClient\obj\Debug\WindowsClient.Form1.resources
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\WindowsClient\obj\Debug\WindowsClient.Properties.Resources.resources
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\WindowsClient\obj\Debug\WindowsClient.csproj.GenerateResource.Cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\obj\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\obj\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\bin\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\bin\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\obj\Debug\WindowsClient.Form1.resources
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\obj\Debug\WindowsClient.Properties.Resources.resources
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\obj\Debug\WindowsClient.csproj.GenerateResource.Cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\bin\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\bin\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\WindowsClient\bin\Debug\WindowsClient.exe.config
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\obj\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\obj\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\bin\Debug\WindowsClient.exe
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\bin\Debug\WindowsClient.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\bin\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\bin\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\obj\Debug\WindowsClient.Form1.resources
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\obj\Debug\WindowsClient.Properties.Resources.resources
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\WindowsClient\obj\Debug\WindowsClient.csproj.GenerateResource.Cache

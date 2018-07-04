@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro.SIL.Trace", "Metro.SIL.Trace.csproj", "{9FDB619C-464C-4F5C-9443-BD4F8BB4D084}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RestService", "..\..\..\Practice\Rest\Service\RestService.csproj", "{9C4ED56F-BB51-47F4-98AB-E59DE269A674}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9FDB619C-464C-4F5C-9443-BD4F8BB4D084}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9FDB619C-464C-4F5C-9443-BD4F8BB4D084}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9FDB619C-464C-4F5C-9443-BD4F8BB4D084}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9FDB619C-464C-4F5C-9443-BD4F8BB4D084}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9C4ED56F-BB51-47F4-98AB-E59DE269A674}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9C4ED56F-BB51-47F4-98AB-E59DE269A674}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9C4ED56F-BB51-47F4-98AB-E59DE269A674}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9C4ED56F-BB51-47F4-98AB-E59DE269A674}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

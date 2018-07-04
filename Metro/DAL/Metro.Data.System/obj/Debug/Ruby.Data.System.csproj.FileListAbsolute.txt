@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\ClientServer\DAL\Metro.Data.System\obj\Debug\Metro.Data.System.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Metro.Data.System.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Metro.Data.System.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Metro.Data.System\obj\Debug\Metro.Data.System.dll
+C:\private\dev\project\VS\ClientServer\DAL\Metro.Data.System\obj\Debug\Metro.Data.System.pdb

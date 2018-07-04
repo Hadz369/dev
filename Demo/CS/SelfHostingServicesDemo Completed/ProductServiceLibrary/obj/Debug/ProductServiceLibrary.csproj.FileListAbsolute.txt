@@ -1,0 +1,24 @@
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\ProductServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\ProductServiceLibrary\obj\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\ProductServiceLibrary\obj\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\ProductServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\ProductServiceLibrary\obj\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\ProductServiceLibrary\obj\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ProductServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ProductServiceLibrary\obj\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ProductServiceLibrary\obj\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ProductServiceLibrary\bin\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ProductServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ProductServiceLibrary\obj\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ProductServiceLibrary\obj\Debug\ProductServiceLibrary.pdb

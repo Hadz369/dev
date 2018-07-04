@@ -1,0 +1,28 @@
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ConsoleHost\bin\Debug\ConsoleHost.exe
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ConsoleHost\bin\Debug\ConsoleHost.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ConsoleHost\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ConsoleHost\bin\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ConsoleHost\bin\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ConsoleHost\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ConsoleHost\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ConsoleHost\obj\Debug\ConsoleHost.exe
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ConsoleHost\obj\Debug\ConsoleHost.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ConsoleHost\obj\Debug\ConsoleHost.exe
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ConsoleHost\obj\Debug\ConsoleHost.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ConsoleHost\bin\Debug\ConsoleHost.exe
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ConsoleHost\bin\Debug\ConsoleHost.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ConsoleHost\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ConsoleHost\bin\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ConsoleHost\bin\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ConsoleHost\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\ConsoleHost\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\ConsoleHost\obj\Debug\ConsoleHost.exe
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\ConsoleHost\obj\Debug\ConsoleHost.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\ConsoleHost\bin\Debug\ConsoleHost.exe
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\ConsoleHost\bin\Debug\ConsoleHost.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\ConsoleHost\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\ConsoleHost\bin\Debug\ProductServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\ConsoleHost\bin\Debug\ProductServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\ConsoleHost\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\ConsoleHost\obj\Debug\ResolveAssemblyReference.cache

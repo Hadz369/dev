@@ -1,0 +1,9 @@
+C:\temp\build\TestServer.pdb
+C:\private\dev\project\VS\Practice\Rest\Server.cs\obj\Debug\TestServer.pdb
+C:\temp\build\TestServer.exe.config
+C:\temp\build\TestServer.exe
+C:\private\dev\project\VS\Practice\Rest\Server.cs\obj\Debug\TestServer.exe
+C:\private\dev\project\VS\Practice\Rest\Develop.Bin\TestServer.exe
+C:\private\dev\project\VS\Practice\Rest\Develop.Bin\TestServer.pdb
+C:\private\dev\project\VS\Practice\Rest\Develop.Bin\TestServer.exe.config
+C:\private\dev\project\VS\Practice\Rest\Server.cs\obj\Debug\TestServer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,410 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Metro.Data.Core</name>
+    </assembly>
+    <members>
+        <member name="T:Metro.Data.StatisticsEventHandler">
+            <summary>
+            Event delegate for statistic information
+            </summary>
+            <param name="stats">Collection of statistics</param>
+        </member>
+        <member name="T:Metro.Data.StatisticsBase">
+            <summary>
+            Statistics Base Class
+            </summary>
+        </member>
+        <member name="F:Metro.Data.StatisticsBase._stats">
+            <summary>
+            Protected dictionary of statistic metrics related to a statistic type
+            </summary>
+        </member>
+        <member name="M:Metro.Data.StatisticsBase.ToString">
+            <summary>
+            Abstract ToString implementation to force overriding
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:Metro.Data.StatisticsBase.Statistics">
+            <summary>
+            Public dictionary of statistic metrics related to a statistic type
+            </summary>
+        </member>
+        <member name="T:Metro.Data.ChannelProxyStatistics">
+            <summary>
+            A collection of Channel statistics
+            </summary>
+        </member>
+        <member name="M:Metro.Data.ChannelProxyStatistics.#ctor(System.String,System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32,System.Int32)">
+            <summary>
+            Class constructor
+            </summary>
+            <param name="type">Statistic type</param>
+            <param name="id">Channel Id</param>
+            <param name="inUse">Channel is in use</param>
+            <param name="created">DateTime the channel was created</param>
+            <param name="lastUsed">Last DateTime the channel was used</param>
+            <param name="reuseCount">How many times the channel has been reused</param>
+            <param name="execCount">How many commands have been executed</param>
+        </member>
+        <member name="M:Metro.Data.ChannelProxyStatistics.ToString">
+            <summary>
+            Build a string representation of the statistic collection
+            </summary>
+            <returns>Formatted statistics string</returns>
+        </member>
+        <member name="T:Metro.Data.ChannelProxy`1">
+            <summary>
+            Channel Proxy
+            <remarks>
+            The channel proxy provides a wrapper around a Channel to provide simple disposal.
+            </remarks>
+            </summary>
+        </member>
+        <member name="M:Metro.Data.ChannelProxy`1.#ctor(`0)">
+            <summary>
+            Class constructor
+            </summary>
+            <param name="channel">Channel</param>
+        </member>
+        <member name="M:Metro.Data.ChannelProxy`1.Dispose">
+            <summary>
+            Close the channel and dispose of it
+            </summary>
+        </member>
+        <member name="P:Metro.Data.ChannelProxy`1.Guid">
+            <summary>
+            Channel identifier
+            </summary>
+        </member>
+        <member name="P:Metro.Data.ChannelProxy`1.Channel">
+            <summary>
+            IClientChannel object
+            </summary>
+        </member>
+        <member name="T:Metro.Data.ChannelFactoryKey">
+            <summary>
+            ChannelFactoryKey is a static class that contains a list of keys
+            that can be used during channel management.
+            </summary>
+        </member>
+        <member name="T:Metro.Data.ChannelBroker`1">
+            <summary>
+            A singleton class used to hold a list of channel factories for a given interface and 
+            allocate channel proxies when requested
+            </summary>
+            <typeparam name="T">The interface type of factories being managed</typeparam>
+        </member>
+        <member name="M:Metro.Data.ChannelBroker`1.Register(System.String,System.ServiceModel.ChannelFactory{`0})">
+            <summary>
+            Register a channel factory
+            <remarks>
+            When the register function is called and the key does not exist in the collection
+            of registered channel factories then the key/factory pair is added to the list 
+            and a value of true is returned, otherwise no action is performed and a value 
+            of false is returned.
+            </remarks>
+            </summary>
+            <param name="key">A unique identifying key for the channel factory</param>
+            <param name="factory">The channel factory to add to the collection</param>
+            <returns>True = Success, False = Failure</returns>
+        </member>
+        <member name="M:Metro.Data.ChannelBroker`1.DeRegister(System.String)">
+            <summary>
+            Deregister a registered channel factory
+            <remarks>
+            When a a registered channel factory is no longer required it should be
+            deregistered which will remove it from the collection and free all resources.
+            If a factory exists for the given key it will be closed and removed and a value 
+            of true will be returned to the caller otherwise a value of false will be returned.
+            </remarks>
+            </summary>
+            <param name="key">The key of the factory to be removed</param>
+            <returns>True = Success, False = Failure</returns>
+        </member>
+        <member name="M:Metro.Data.ChannelBroker`1.GetProxy(System.String)">
+            <summary>
+            Get a new channel proxy from the factory identified by the given key.
+            <remarks>
+            Calling this method with an invalid key will result in an exception being thrown.
+            </remarks>
+            </summary>
+            <param name="key">The unique key of the factory to use</param>
+            <returns>A new channel proxy</returns>
+        </member>
+        <member name="M:Metro.Data.ChannelBroker`1.Dispose">
+            <summary>
+            Close all chammel factories and dispose of everything
+            </summary>
+        </member>
+        <member name="P:Metro.Data.ChannelBroker`1.Instance">
+            <summary>
+            Returns the singleton instance of the channel broker class
+            </summary>
+        </member>
+        <member name="T:Metro.Data.DbConnectionStatistics">
+            <summary>
+            A collection of DbConnection statistics
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbConnectionStatistics.#ctor(System.String,System.Int32,System.Boolean,System.DateTime,System.DateTime,System.Int32,System.Int32)">
+            <summary>
+            Class constructor
+            </summary>
+            <param name="type">Statistic type</param>
+            <param name="id">Connection Id</param>
+            <param name="inUse">Connection is in use</param>
+            <param name="created">DateTime the connection was created</param>
+            <param name="lastUsed">Last DateTime the connection was used</param>
+            <param name="reuseCount">How many times the connection has been reused</param>
+            <param name="execCount">How many commands have been executed</param>
+        </member>
+        <member name="M:Metro.Data.DbConnectionStatistics.ToString">
+            <summary>
+            Build a string representation of the statistic collection
+            </summary>
+            <returns>Formatted statistics string</returns>
+        </member>
+        <member name="T:Metro.Data.DbConnection">
+            <summary>
+            Database connection object
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbConnection.#ctor(System.String,System.Int32)">
+            <summary>
+            Class constructor
+            </summary>
+            <param name="connectionString">Connection string</param>
+            <param name="connectionId">Id for the connection generated by the broker</param>
+        </member>
+        <member name="M:Metro.Data.DbConnection.SendStats">
+            <summary>
+            Signal the connections to send statistics
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbConnection.SetUsed">
+            <summary>
+            Set the last used date of the connection
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbConnection.Initialise">
+            <summary>
+            Initialise an existing connection
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbConnection.Dispose">
+            <summary>
+            Close the database connection and dispose of it
+            </summary>
+        </member>
+        <member name="E:Metro.Data.DbConnection.StatisticsEvent">
+            <summary>
+            Statistics event handler
+            </summary>
+        </member>
+        <member name="P:Metro.Data.DbConnection.Id">
+            <summary>
+            Connection Id
+            </summary>
+        </member>
+        <member name="P:Metro.Data.DbConnection.InUse">
+            <summary>
+            Connection is currently in use
+            </summary>
+        </member>
+        <member name="P:Metro.Data.DbConnection.LastUsed">
+            <summary>
+            Last time the connection was used
+            </summary>
+        </member>
+        <member name="P:Metro.Data.DbConnection.SqlConnection">
+            <summary>
+            SqlConnection object
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbConnectionBroker.Register(System.String,System.String)">
+            <summary>
+            Register a connection string with the connection broker
+            </summary>
+            <param name="key">The identifying key of the connection string owner</param>
+            <param name="constring">The connection string</param>
+            <returns>True = Success, False = Failure</returns>
+        </member>
+        <member name="M:Metro.Data.DbConnectionBroker.DeRegister(System.String)">
+            <summary>
+            Deregister a registered connection string
+            </summary>
+            <param name="key">The identifying key of the string to be removed</param>
+            <returns>True = Success, False = Failure</returns>
+        </member>
+        <member name="M:Metro.Data.DbConnectionBroker.OnTimer(System.Object)">
+            <summary>
+            Status timer callback
+            <remarks>
+            Check the connection list every 5 seconds and remove any entries that are not in use
+            where their last activity was more than 1 minute ago
+            </remarks>
+            </summary>
+            <param name="stateInfo">Callback data</param>
+        </member>
+        <member name="M:Metro.Data.DbConnectionBroker.Cleanup">
+            <summary>
+            Remove connections from the pool that have been inactive for more than a minute
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbConnectionBroker.GetStats">
+            <summary>
+            Gather connection statistics
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbConnectionBroker.GetConnection(System.String)">
+            <summary>
+            Get an available connection from the pool
+            </summary>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Metro.Data.DbConnectionBroker.con_StatisticsEvent(Metro.Data.StatisticsBase)">
+            <summary>
+            Log the statistics to the trace logs
+            </summary>
+            <param name="stats"></param>
+        </member>
+        <member name="M:Metro.Data.DbConnectionBroker.GetSummary">
+            <summary>
+            Build the connection statistics summary
+            </summary>
+            <returns>A formatted summary string</returns>
+        </member>
+        <member name="M:Metro.Data.DbConnectionBroker.Dispose">
+            <summary>
+            Stop the timer, close all connections and dispose of everything
+            </summary>
+        </member>
+        <member name="P:Metro.Data.DbConnectionBroker.Instance">
+            <summary>
+            Returns the singleton instance of the DbConnectionBroker class
+            </summary>
+        </member>
+        <member name="T:Metro.Data.DbHandler">
+            <summary>
+            DbHandler Class
+            <remarks>
+            This is the DbHandler class
+            </remarks>
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbHandler.#ctor(System.String)">
+            <summary>
+            Main entry point for the class
+            </summary>
+            <param name="key">Key used to retrieve a connection from the broker</param>
+        </member>
+        <member name="M:Metro.Data.DbHandler.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Main entry point for the class with person and module id options
+            </summary>
+            <param name="key">Key used to retrieve a connection from the broker</param>
+        </member>
+        <member name="M:Metro.Data.DbHandler.Connect">
+            <summary>
+            Connect to the database
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Metro.Data.DbHandler.Disconnect">
+            <summary>
+            Disconnect from the database
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:Metro.Data.DbHandler.BeginTransaction">
+            <summary>
+            Start a new transaction
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbHandler.Commit">
+            <summary>
+             Commit the transaction
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbHandler.RollBack">
+            <summary>
+            Rollback the transaction
+            </summary>
+        </member>
+        <member name="M:Metro.Data.DbHandler.GetCommand(System.Data.CommandType,System.String)">
+            <summary>
+            Get a new SQLCommand
+            </summary>
+            <param name="commandType">Command Type</param>
+            <param name="commandText">Command Text</param>
+            <returns>SQLCommand</returns>
+        </member>
+        <member name="M:Metro.Data.DbHandler.Execute(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Execute an SQL Command and return a single recordset
+            </summary>
+            <param name="cmd">SQLCommand to be executed</param>
+            <returns>DataTable</returns>
+        </member>
+        <member name="M:Metro.Data.DbHandler.ExecuteDataSet(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Execute an SQL Command and return a dataset
+            <remarks>
+            This method should be used when calling a stored procedure that 
+            may return multiple result sets
+            </remarks>
+            </summary>
+            <param name="cmd">SQLCommand to be executed</param>
+            <returns>DataSet</returns>
+        </member>
+        <member name="M:Metro.Data.DbHandler.ExecuteNonQuery(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Execute an SQL Command where no result set is returned
+            </summary>
+            <param name="cmd">SQLCommand to be executed</param>
+            <returns>Either the number or rows affected or the return value parameter</returns>
+        </member>
+        <member name="M:Metro.Data.DbHandler.ExecuteScalar(System.Data.SqlClient.SqlCommand)">
+            <summary>
+            Execute an SQL Command and return a single scalar object
+            </summary>
+            <param name="cmd">SQLCommand to be executed</param>
+            <returns>The scalar value returned from the SQL execution</returns>
+        </member>
+        <member name="M:Metro.Data.DbHandler.Dispose">
+            <summary>
+            Cleanup
+            </summary>
+        </member>
+        <member name="P:Metro.Data.DbHandler.Connection">
+            <summary>
+            Sql connection object
+            </summary>
+        </member>
+        <member name="P:Metro.Data.DbHandler.IsTransaction">
+            <summary>
+            The DbHandler is performing a transaction
+            </summary>
+        </member>
+        <member name="P:Metro.Data.DbHandler.Transaction">
+            <summary>
+            The transaction currently being performed
+            </summary>
+        </member>
+        <member name="T:Metro.Data.Parms">
+            <summary>
+            A dictionary used to hold a list of parameter names and values
+            </summary>
+        </member>
+        <member name="M:Metro.Data.Parms.GetParm(System.String)">
+            <summary>
+            Get a parameter from the dictionary with the provided key
+            </summary>
+            <param name="key">Parameter key</param>
+            <returns>The parameter value</returns>
+        </member>
+    </members>
+</doc>

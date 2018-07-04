@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\Framework\Hadz369.Event\bin\Debug\Hadz369.Event.dll
+C:\private\dev\project\VS\Framework\Hadz369.Event\bin\Debug\Hadz369.Event.pdb
+C:\private\dev\project\VS\Framework\Hadz369.Event\obj\Debug\Hadz369.Event.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Framework\Hadz369.Event\obj\Debug\Hadz369.Event.dll
+C:\private\dev\project\VS\Framework\Hadz369.Event\obj\Debug\Hadz369.Event.pdb

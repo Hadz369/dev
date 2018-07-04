@@ -1,0 +1,4 @@
+C:\private\dev\project\VS\ClientServer\Develop.Bin\BIZ\Biz.Player.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\BIZ\Biz.Player.pdb
+C:\private\dev\project\VS\ClientServer\BIZ\eBet.Business.Player\obj\Debug\Biz.Player.dll
+C:\private\dev\project\VS\ClientServer\BIZ\eBet.Business.Player\obj\Debug\Biz.Player.pdb

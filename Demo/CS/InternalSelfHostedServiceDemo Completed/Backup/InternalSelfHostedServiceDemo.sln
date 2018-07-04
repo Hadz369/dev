@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleHost", "ConsoleHost\ConsoleHost.csproj", "{3D90FB5F-FF48-4917-986A-44A08DE069C6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowsClient", "WindowsClient\WindowsClient.csproj", "{30EA39C3-5035-48E1-B2D3-2DF5FB18C365}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SecureServiceLibrary", "SecureServiceLibrary\SecureServiceLibrary.csproj", "{C3FB8A2C-33B4-44E8-A531-D12E737507C0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3D90FB5F-FF48-4917-986A-44A08DE069C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D90FB5F-FF48-4917-986A-44A08DE069C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D90FB5F-FF48-4917-986A-44A08DE069C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D90FB5F-FF48-4917-986A-44A08DE069C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30EA39C3-5035-48E1-B2D3-2DF5FB18C365}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30EA39C3-5035-48E1-B2D3-2DF5FB18C365}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30EA39C3-5035-48E1-B2D3-2DF5FB18C365}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30EA39C3-5035-48E1-B2D3-2DF5FB18C365}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3FB8A2C-33B4-44E8-A531-D12E737507C0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3FB8A2C-33B4-44E8-A531-D12E737507C0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3FB8A2C-33B4-44E8-A531-D12E737507C0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3FB8A2C-33B4-44E8-A531-D12E737507C0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

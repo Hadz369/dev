@@ -1,0 +1,14 @@
+C:\work\source\C#\class\FlexAdmin.Event\bin\Debug\FlexAdmin.Event.dll
+C:\work\source\C#\class\FlexAdmin.Event\bin\Debug\FlexAdmin.Event.pdb
+C:\work\source\C#\class\FlexAdmin.Event\obj\Debug\FlexAdmin.Event.csprojResolveAssemblyReference.cache
+C:\work\source\C#\class\FlexAdmin.Event\obj\Debug\FlexAdmin.Event.dll
+C:\work\source\C#\class\FlexAdmin.Event\obj\Debug\FlexAdmin.Event.pdb
+C:\development\FlexiAdmin\source\C#\class\FlexAdmin.Event\bin\Debug\FlexAdmin.Event.dll
+C:\development\FlexiAdmin\source\C#\class\FlexAdmin.Event\bin\Debug\FlexAdmin.Event.pdb
+C:\development\FlexiAdmin\source\C#\class\FlexAdmin.Event\obj\Debug\FlexAdmin.Event.dll
+C:\development\FlexiAdmin\source\C#\class\FlexAdmin.Event\obj\Debug\FlexAdmin.Event.pdb
+Z:\FlexiAdmin\source\C#\class\FlexAdmin.Event\bin\Debug\FlexAdmin.Event.dll
+Z:\FlexiAdmin\source\C#\class\FlexAdmin.Event\bin\Debug\FlexAdmin.Event.pdb
+Z:\FlexiAdmin\source\C#\class\FlexAdmin.Event\obj\Debug\FlexAdmin.Event.dll
+Z:\FlexiAdmin\source\C#\class\FlexAdmin.Event\obj\Debug\FlexAdmin.Event.pdb
+C:\development\FlexiAdmin\source\C#\class\FlexAdmin.Event\obj\Debug\FlexAdmin.Event.csprojResolveAssemblyReference.cache

@@ -1,0 +1,50 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro.Data.System", "Metro.Data.System\Metro.Data.System.csproj", "{9046A530-17E7-4405-9B41-A7ABC2B7B646}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro.DataServiceHost", "Metro.DataServiceHost\Metro.DataServiceHost.csproj", "{9EEEED0E-F37F-4161-B68B-CD14BC61F68A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro.Data.Online", "Metro.Data.Online\Metro.Data.Online.csproj", "{4E0ACE07-76AD-4DF9-8383-1EF5A8879C69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro.Data.FlexiNet", "Metro.Data.FlexiNet\Metro.Data.FlexiNet.csproj", "{DC71F64D-0D00-470F-91F7-ED6A9558D054}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro.Data.Member", "Metro.Data.Member\Metro.Data.Member.csproj", "{27A3C0C9-58FE-4B60-A1C0-B4D7AA305C0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Metro.Data.Game", "Metro.Data.Game\Metro.Data.Game.csproj", "{5516A471-D1D0-4D17-8A27-C430EE319CF4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9046A530-17E7-4405-9B41-A7ABC2B7B646}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9046A530-17E7-4405-9B41-A7ABC2B7B646}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9046A530-17E7-4405-9B41-A7ABC2B7B646}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9046A530-17E7-4405-9B41-A7ABC2B7B646}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9EEEED0E-F37F-4161-B68B-CD14BC61F68A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9EEEED0E-F37F-4161-B68B-CD14BC61F68A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9EEEED0E-F37F-4161-B68B-CD14BC61F68A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9EEEED0E-F37F-4161-B68B-CD14BC61F68A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E0ACE07-76AD-4DF9-8383-1EF5A8879C69}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E0ACE07-76AD-4DF9-8383-1EF5A8879C69}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E0ACE07-76AD-4DF9-8383-1EF5A8879C69}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E0ACE07-76AD-4DF9-8383-1EF5A8879C69}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC71F64D-0D00-470F-91F7-ED6A9558D054}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC71F64D-0D00-470F-91F7-ED6A9558D054}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC71F64D-0D00-470F-91F7-ED6A9558D054}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC71F64D-0D00-470F-91F7-ED6A9558D054}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27A3C0C9-58FE-4B60-A1C0-B4D7AA305C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27A3C0C9-58FE-4B60-A1C0-B4D7AA305C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27A3C0C9-58FE-4B60-A1C0-B4D7AA305C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27A3C0C9-58FE-4B60-A1C0-B4D7AA305C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5516A471-D1D0-4D17-8A27-C430EE319CF4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5516A471-D1D0-4D17-8A27-C430EE319CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5516A471-D1D0-4D17-8A27-C430EE319CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5516A471-D1D0-4D17-8A27-C430EE319CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

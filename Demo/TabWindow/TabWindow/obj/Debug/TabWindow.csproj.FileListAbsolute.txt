@@ -1,0 +1,13 @@
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\bin\Debug\TabWindow.dll
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\bin\Debug\TabWindow.pdb
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\DropOverlayWindow.baml
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\DropOverlayWindow.g.cs
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\TabWindow_MarkupCompile.cache
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\TabWindow_MarkupCompile.lref
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\Themes\Generic.baml
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\TabWindow.g.resources
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\TabWindow.Properties.Resources.resources
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\TabWindow.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\TabWindow.dll
+C:\private\dev\project\VS\Demo\TabWindow\TabWindow\obj\Debug\TabWindow.pdb

@@ -1,0 +1,9 @@
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\WindowsClient\bin\Debug\WindowsClient.exe.config
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\WindowsClient\bin\Debug\WindowsClient.exe
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\WindowsClient\bin\Debug\WindowsClient.pdb
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\WindowsClient\obj\Debug\WindowsClient.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\WindowsClient\obj\Debug\WindowsClient.Form1.resources
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\WindowsClient\obj\Debug\WindowsClient.Properties.Resources.resources
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\WindowsClient\obj\Debug\WindowsClient.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\WindowsClient\obj\Debug\WindowsClient.exe
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\WindowsClient\obj\Debug\WindowsClient.pdb

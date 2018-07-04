@@ -1,0 +1,5 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\framework\Alma.Business.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\framework\Alma.Business.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Business\obj\Debug\Alma.Business.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Business\obj\Debug\Alma.Business.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Business\obj\Debug\Alma.Business.pdb

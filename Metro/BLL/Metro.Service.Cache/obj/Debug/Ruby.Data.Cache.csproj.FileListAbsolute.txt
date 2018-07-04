@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Metro.Data.Cache.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Metro.Data.Cache.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Metro.Data.Cache\obj\Debug\Metro.Data.Cache.dll
+C:\private\dev\project\VS\ClientServer\DAL\Metro.Data.Cache\obj\Debug\Metro.Data.Cache.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Metro.Data.Cache\obj\Debug\Metro.Data.Cache.csprojResolveAssemblyReference.cache

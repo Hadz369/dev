@@ -1,0 +1,15 @@
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\BizTest.exe
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\BizTest.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Test\BizTest\obj\Debug\BizTest.Properties.Resources.resources
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Test\BizTest\obj\Debug\BizTest.csproj.GenerateResource.Cache
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Test\BizTest\obj\Debug\BizTest.exe
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Test\BizTest\obj\Debug\BizTest.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\BIZ\BizTest\obj\Debug\BizTest.exe
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\BIZ\BizTest\obj\Debug\BizTest.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\BIZ\BizTest.exe
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\BIZ\BizTest.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\BIZ\BizTest\obj\Debug\BizTest.csprojResolveAssemblyReference.cache
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\BIZ\BizTest\obj\Debug\BizTest.Properties.Resources.resources
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\BIZ\BizTest\obj\Debug\BizTest.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\ClientServer\BIZ\BizTest\obj\Debug\BizTest.exe
+C:\private\dev\project\VS\ClientServer\BIZ\BizTest\obj\Debug\BizTest.pdb

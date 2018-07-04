@@ -1,0 +1,16 @@
+C:\private\dev\project\VS\Demo\FabTab\bin\FabTab.dll
+C:\private\dev\project\VS\Demo\FabTab\bin\FabTab.pdb
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\FabTab.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\ContentTabView.baml
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\FabTabResources.baml
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\ContentTabView.g.cs
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\FabTabResources.g.cs
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\GeneratedInternalTypeHelper.g.cs
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\FabTab_MarkupCompile.cache
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\FabTab_MarkupCompile.lref
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\Themes\Generic.baml
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\FabTab.g.resources
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\FabTab.Properties.Resources.resources
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\FabTab.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\FabTab.dll
+C:\private\dev\project\VS\Demo\FabTab\FabTab\obj\Debug\FabTab.pdb

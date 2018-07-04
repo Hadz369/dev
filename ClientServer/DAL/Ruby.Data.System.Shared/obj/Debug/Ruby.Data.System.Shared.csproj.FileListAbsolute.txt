@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Ruby.Data.System.Shared.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Ruby.Data.System.Shared.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.System.Shared\obj\Debug\Ruby.Data.System.Shared.dll
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.System.Shared\obj\Debug\Ruby.Data.System.Shared.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.System.Shared\obj\Debug\Ruby.Data.System.Shared.csprojResolveAssemblyReference.cache

@@ -1,0 +1,6 @@
+C:\private\dev\project\VS\Practice\WcfClientServer\build\tpServer.exe.config
+C:\private\dev\project\VS\Practice\WcfClientServer\build\tpServer.exe
+C:\private\dev\project\VS\Practice\WcfClientServer\build\tpServer.pdb
+C:\private\dev\project\VS\Practice\WcfClientServer\tpServer\obj\Debug\tpServer.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Practice\WcfClientServer\tpServer\obj\Debug\tpServer.exe
+C:\private\dev\project\VS\Practice\WcfClientServer\tpServer\obj\Debug\tpServer.pdb

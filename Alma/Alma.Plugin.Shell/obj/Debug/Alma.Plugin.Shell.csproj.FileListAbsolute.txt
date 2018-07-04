@@ -1,0 +1,15 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\obj\Debug\Alma.Plugin.Shell_MarkupCompile.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\obj\Debug\Alma.Plugin.Shell.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\obj\Debug\Alma.Plugin.Shell.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\obj\Debug\Alma.Plugin.Shell.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\obj\Debug\Plugin.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\bin\Debug\Alma.Plugin.Shell.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\bin\Debug\Alma.Plugin.Shell.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\bin\Debug\Alma.Controls.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\bin\Debug\Alma.Shared.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\bin\Debug\Alma.Controls.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\bin\Debug\Alma.Shared.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\obj\Debug\Plugin.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\obj\Debug\Alma.Plugin.Shell.g.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\obj\Debug\Alma.Plugin.Shell.Properties.Resources.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Plugin.Shell\obj\Debug\Alma.Plugin.Shell.csproj.GenerateResource.Cache

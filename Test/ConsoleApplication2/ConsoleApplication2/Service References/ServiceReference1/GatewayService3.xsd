@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/Ebet.Common" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/Ebet.Common" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://devdialout2:28100/EPSGatewayService/GatewayService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:simpleType name="EgmMeterId">
+    <xs:annotation>
+      <xs:appinfo>
+        <ActualType Name="unsignedByte" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="gameWins" />
+      <xs:enumeration value="stroke" />
+      <xs:enumeration value="turnover" />
+      <xs:enumeration value="wins" />
+      <xs:enumeration value="csi" />
+      <xs:enumeration value="cso" />
+      <xs:enumeration value="coi" />
+      <xs:enumeration value="coo" />
+      <xs:enumeration value="hopper" />
+      <xs:enumeration value="cashBox" />
+      <xs:enumeration value="refill" />
+      <xs:enumeration value="cancel" />
+      <xs:enumeration value="totalWins" />
+      <xs:enumeration value="credits" />
+      <xs:enumeration value="jpCont" />
+      <xs:enumeration value="jpWon" />
+      <xs:enumeration value="cto" />
+      <xs:enumeration value="tci" />
+      <xs:enumeration value="tco" />
+      <xs:enumeration value="sapWins" />
+      <xs:enumeration value="lpWins" />
+      <xs:enumeration value="ni" />
+      <xs:enumeration value="nic" />
+      <xs:enumeration value="d5In" />
+      <xs:enumeration value="d10In" />
+      <xs:enumeration value="d20In" />
+      <xs:enumeration value="d50In" />
+      <xs:enumeration value="d100In" />
+      <xs:enumeration value="rcrt" />
+      <xs:enumeration value="rcrw" />
+      <xs:enumeration value="undefined1" />
+      <xs:enumeration value="undefined2" />
+      <xs:enumeration value="LPE" />
+      <xs:enumeration value="CIE" />
+      <xs:enumeration value="PRE" />
+      <xs:enumeration value="cti" />
+      <xs:enumeration value="pidacc" />
+      <xs:enumeration value="tgWins" />
+      <xs:enumeration value="tsapWins" />
+      <xs:enumeration value="rejNots" />
+      <xs:enumeration value="gTurnover" />
+      <xs:enumeration value="gWins" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="EgmMeterId" nillable="true" type="tns:EgmMeterId" />
+  <xs:simpleType name="EgmModes">
+    <xs:annotation>
+      <xs:appinfo>
+        <ActualType Name="unsignedByte" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Test" />
+      <xs:enumeration value="Attendant" />
+      <xs:enumeration value="Idle" />
+      <xs:enumeration value="Play" />
+      <xs:enumeration value="Error" />
+      <xs:enumeration value="Reserve" />
+      <xs:enumeration value="TestScreen" />
+      <xs:enumeration value="WaitBet">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">8</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Payout">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">9</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Unknown">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">100</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="EgmModes" nillable="true" type="tns:EgmModes" />
+  <xs:simpleType name="EgmStatuses">
+    <xs:annotation>
+      <xs:appinfo>
+        <ActualType Name="unsignedByte" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Disable" />
+      <xs:enumeration value="Enable" />
+      <xs:enumeration value="Event" />
+      <xs:enumeration value="Regatt" />
+      <xs:enumeration value="GmComm" />
+      <xs:enumeration value="Offline" />
+      <xs:enumeration value="Test" />
+      <xs:enumeration value="DisableBySWJP" />
+      <xs:enumeration value="DisableBySWJPNoBroadcast" />
+      <xs:enumeration value="DisableTournament" />
+      <xs:enumeration value="DisableByECTFailed">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">11</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="DisableByTicketOutRequest">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">12</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="DisableByTicketOutPrinting">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">13</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Unknown">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">100</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="EgmStatuses" nillable="true" type="tns:EgmStatuses" />
+  <xs:simpleType name="EgmMeterType">
+    <xs:annotation>
+      <xs:appinfo>
+        <ActualType Name="unsignedByte" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="StartDay" />
+      <xs:enumeration value="RamReset" />
+      <xs:enumeration value="EndOfDay" />
+      <xs:enumeration value="Decommission" />
+      <xs:enumeration value="Commissioned" />
+      <xs:enumeration value="Hourly" />
+      <xs:enumeration value="SystemStartDay" />
+      <xs:enumeration value="Snapshot" />
+      <xs:enumeration value="Decommission2" />
+      <xs:enumeration value="RamClearAdjust" />
+      <xs:enumeration value="StartDay2">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">16</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="EndDay2">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">18</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="SCRamClear">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">19</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="CardInSnapsoh">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">30</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="CardOutSnapshot">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">31</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="TCInSnapshot">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">32</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="TCOutSnapshot">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">33</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Unknown">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">250</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="EgmMeterType" nillable="true" type="tns:EgmMeterType" />
+</xs:schema>

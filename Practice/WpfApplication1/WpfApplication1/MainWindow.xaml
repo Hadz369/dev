@@ -1,0 +1,29 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:WpfCustomControlLibrary1="clr-namespace:WpfCustomControlLibrary1;assembly=WpfCustomControlLibrary1" x:Class="WpfApplication1.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid Margin="167,0,0,0">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>            
+        </Grid.ColumnDefinitions>
+        <StackPanel>
+            <ToggleButton Grid.Column="0" Height="25"></ToggleButton>
+        </StackPanel>       
+        
+        <WpfCustomControlLibrary1:MySection Grid.Column="1"
+            Header="MySection" 
+            HorizontalAlignment="Left" Margin="123,50,0,0" VerticalAlignment="Top" 
+            Background="Black" Foreground="Lime"
+            Width="224" Height="220">
+            <DockPanel Height="100">
+                <Button HorizontalAlignment="Stretch" VerticalAlignment="Stretch" />
+            </DockPanel>
+            <WpfCustomControlLibrary1:MySection.Footer>
+                <TextBlock Height="21" Text="Hello"/>                    
+            </WpfCustomControlLibrary1:MySection.Footer>
+        </WpfCustomControlLibrary1:MySection>
+
+    </Grid>
+</Window>

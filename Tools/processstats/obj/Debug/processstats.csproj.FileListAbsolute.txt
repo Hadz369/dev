@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\processstats\bin\Debug\processstats.exe
+C:\private\dev\project\VS\processstats\bin\Debug\processstats.pdb
+C:\private\dev\project\VS\processstats\obj\Debug\processstats.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\processstats\obj\Debug\processstats.exe
+C:\private\dev\project\VS\processstats\obj\Debug\processstats.pdb

@@ -1,0 +1,9 @@
+C:\temp\build\service.svc
+C:\temp\build\RestService.dll
+C:\temp\build\RestService.pdb
+C:\private\dev\project\VS\Practice\Rest\Develop.Bin\RestService.dll
+C:\private\dev\project\VS\Practice\Rest\Develop.Bin\service.svc
+C:\private\dev\project\VS\Practice\Rest\Develop.Bin\RestService.dll.config
+C:\private\dev\project\VS\Practice\Rest\Develop.Bin\RestService.pdb
+C:\private\dev\project\VS\Practice\Rest\Service\obj\Debug\RestService.dll
+C:\private\dev\project\VS\Practice\Rest\Service\obj\Debug\RestService.pdb

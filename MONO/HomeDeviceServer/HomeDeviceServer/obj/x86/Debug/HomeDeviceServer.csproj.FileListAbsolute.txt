@@ -1,0 +1,1 @@
+C:\private\dev\project\MONO\HomeDeviceServer\HomeDeviceServer\obj\x86\Debug\HomeDeviceServer.csprojResolveAssemblyReference.cache

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" xmlns="http://www.w3.org/2001/04/xmlenc#">
+  <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" />
+  <CipherData>
+    <CipherValue>b6Bsxuvu//iw3GwIQpSomXEQX1sT2fp8i3PhEALu+1o4CvK1twTuLIbuas4iWXsWT3bjRoYwXqzauFUN+qK1bR7QLDH8OS8HPe/muo5iTc5GCWoPa78cbAffUr4D+35L</CipherValue>
+  </CipherData>
+  <EncryptionInformation xmlns="">
+    <IterationsUsed>1000</IterationsUsed>
+    <SaltUsed>OVLivWwDVvqxUHWvoRippw==</SaltUsed>
+    <IVUsed>b6Bsxuvu//iw3GwIQpSomQ==</IVUsed>
+    <KeySize>256</KeySize>
+  </EncryptionInformation>
+</EncryptedData>

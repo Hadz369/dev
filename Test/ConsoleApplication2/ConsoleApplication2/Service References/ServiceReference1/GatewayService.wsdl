@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:i0="http://ebetgroup.com.au/EPSGatewayService" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="GatewayService" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:import namespace="http://ebetgroup.com.au/EPSGatewayService" location="http://devdialout2:28100/EPSGatewayService/GatewayService.svc?wsdl=wsdl0" />
+  <wsdl:types />
+  <wsdl:service name="GatewayService">
+    <wsdl:port name="WS" binding="i0:WS">
+      <soap12:address location="http://devdialout2:28100/EPSGatewayService/GatewayService.svc/secure" />
+      <wsa10:EndpointReference>
+        <wsa10:Address>http://devdialout2:28100/EPSGatewayService/GatewayService.svc/secure</wsa10:Address>
+        <Identity xmlns="http://schemas.xmlsoap.org/ws/2006/02/addressingidentity">
+          <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+            <X509Data>
+              <X509Certificate>MIIB0DCCAT2gAwIBAgIQbXSR7hxJdYBK5JQ3YQIWVTAJBgUrDgMCHQUAMBYxFDASBgNVBAMTC0RFVkRJQUxPVVQyMB4XDTE1MDIxMTAzNTk0NVoXDTIwMDIxMDAzNTk0NVowFjEUMBIGA1UEAxMLREVWRElBTE9VVDIwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAJ14MyyN3yI4NZAioWioQHYpinGvBKzoJqDmbInhlE2XxVz8DlgBOdNBvBLVOkwkwMffZcBObcfBCkOBDmCUQPkXxehUojoWuXYX+3k9ynf9nj/53bJGrGAobc/iuiWD/Fcn0nT4S1ohvDt5cCfpifXMfnWSHN1GAeLhvFcXrjs7AgMBAAGjJzAlMBMGA1UdJQQMMAoGCCsGAQUFBwMBMA4GA1UdDwQHAwUAsAAAADAJBgUrDgMCHQUAA4GBAAhOgaul/2SVR2bMdInCKWnKppW1XFSmzR7oXWzguyyO+BeK5yJmecidI+LiTxOC0Cz/2s6KzLeZb7xPwKdY9IBr+mS67q80Hnlm0rG7391irLMxHzxUN9Uz7MYDSCH+ukGB7i28gjzzx+oZdgOLGTApPE6kJK90gMgVInP+io/T</X509Certificate>
+            </X509Data>
+          </KeyInfo>
+        </Identity>
+      </wsa10:EndpointReference>
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

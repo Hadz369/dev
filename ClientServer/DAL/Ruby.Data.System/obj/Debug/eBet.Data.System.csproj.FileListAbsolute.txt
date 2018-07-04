@@ -1,0 +1,10 @@
+R:\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System\obj\Debug\eBet.Data.System.csprojResolveAssemblyReference.cache
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.System.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.System.pdb
+R:\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System\obj\Debug\eBet.Data.System.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System\obj\Debug\eBet.Data.System.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.System.dll
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.System.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System\obj\Debug\eBet.Data.System.csprojResolveAssemblyReference.cache
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System\obj\Debug\eBet.Data.System.dll
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System\obj\Debug\eBet.Data.System.pdb

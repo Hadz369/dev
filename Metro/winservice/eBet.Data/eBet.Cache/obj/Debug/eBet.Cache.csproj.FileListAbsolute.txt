@@ -1,0 +1,4 @@
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\eBet.Cache\bin\Debug\eBet.Cache.exe
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\eBet.Cache\bin\Debug\eBet.Cache.pdb
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\eBet.Cache\obj\Debug\eBet.Cache.exe
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Data\eBet.Cache\obj\Debug\eBet.Cache.pdb

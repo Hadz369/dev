@@ -1,0 +1,8 @@
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Core.dll
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Core\obj\Release\eBet.Core.dll
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Core\obj\Release\eBet.Core.pdb
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Core.pdb
+R:\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Core.dll
+R:\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Core.pdb
+R:\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Core\obj\Release\eBet.Core.dll
+R:\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Core\obj\Release\eBet.Core.pdb

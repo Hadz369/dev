@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfApplication1", "WpfApplication1\WpfApplication1.csproj", "{4DCFEAB6-310D-4B92-8DF7-6F66EB6A1E3E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfCustomControlLibrary1", "WpfCustomControlLibrary1\WpfCustomControlLibrary1.csproj", "{2BB1D9FF-0BFC-44A2-9268-6A9E41CE0F86}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4DCFEAB6-310D-4B92-8DF7-6F66EB6A1E3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4DCFEAB6-310D-4B92-8DF7-6F66EB6A1E3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4DCFEAB6-310D-4B92-8DF7-6F66EB6A1E3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4DCFEAB6-310D-4B92-8DF7-6F66EB6A1E3E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BB1D9FF-0BFC-44A2-9268-6A9E41CE0F86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BB1D9FF-0BFC-44A2-9268-6A9E41CE0F86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BB1D9FF-0BFC-44A2-9268-6A9E41CE0F86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BB1D9FF-0BFC-44A2-9268-6A9E41CE0F86}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

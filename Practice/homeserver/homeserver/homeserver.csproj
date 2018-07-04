@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{7E3D8C70-6C8B-4236-9F2F-07B793063F5F}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>homeserver</RootNamespace>
+    <AssemblyName>homeserver</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <Externalconsole>true</Externalconsole>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HS.Core">
+      <HintPath>..\bin\framework\HS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HS.Network">
+      <HintPath>..\bin\framework\HS.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="HS.Network.WCF">
+      <HintPath>..\bin\framework\HS.Network.WCF.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.configuration" />
+    <Reference Include="System.ServiceModel" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AssemblyInfo.cs" />
+    <Compile Include="homeserver.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <ProjectReference Include="..\framework\HS.Core.Shared\HS.Core.Shared.csproj">
+      <Project>{3a807e45-45f3-4d9e-808f-bed3f131ea5b}</Project>
+      <Name>HS.Core.Shared</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <PropertyGroup>
+    <PostBuildEvent>if '$(TeamBuild)'=='True' exit 0
+
+REM -------- Edit --------
+SET RELEASEPATH=$(ProjectDir)..\bin
+
+REM ----- Don't Edit -----
+SET BINPATH=$(ProjectDir)$(OutDir)
+SET BINFILE=$(TargetFileName)
+SET FILENAME=$(TargetName)
+
+echo Copying assembly file to %25RELEASEPATH%25
+xcopy /y "%25BINPATH%25%25BINFILE%25" "%25RELEASEPATH%25"
+
+if exist "%25BINPATH%25%25BINFILE%25.config" (
+  echo Copying config file
+  xcopy /y "%25BINPATH%25%25BINFILE%25.config" "%25RELEASEPATH%25"
+)
+
+if exist "%25BINPATH%25%25FILENAME%25.pdb" (
+  echo Copying debug file
+  xcopy /y "%25BINPATH%25%25FILENAME%25.pdb" "%25RELEASEPATH%25"
+)
+</PostBuildEvent>
+  </PropertyGroup>
+</Project>

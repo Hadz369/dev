@@ -1,0 +1,9 @@
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.CMS.Shared.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.CMS.Shared.pdb
+R:\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.CMS.Shared\obj\Debug\eBet.Data.CMS.Shared.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.CMS.Shared\obj\Debug\eBet.Data.CMS.Shared.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.CMS.Shared.dll
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.CMS.Shared.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.CMS.Shared\obj\Debug\eBet.Data.CMS.Shared.csprojResolveAssemblyReference.cache
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.CMS.Shared\obj\Debug\eBet.Data.CMS.Shared.dll
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.CMS.Shared\obj\Debug\eBet.Data.CMS.Shared.pdb

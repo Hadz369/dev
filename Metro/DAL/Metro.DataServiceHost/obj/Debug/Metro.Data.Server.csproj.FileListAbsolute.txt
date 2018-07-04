@@ -1,0 +1,9 @@
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Server\bin\Debug\DataServer.exe.config
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Server\obj\Debug\DataServer.exe
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Server\obj\Debug\DataServer.pdb
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Server\bin\Debug\DataServer.exe.config
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Server\obj\Debug\DataServer.exe
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Server\obj\Debug\DataServer.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\bin\Debug\DataServer.exe.config
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\obj\Debug\DataServer.exe
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Server\obj\Debug\DataServer.pdb

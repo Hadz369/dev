@@ -1,0 +1,4 @@
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Ruby.Data.Shared.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Ruby.Data.Shared.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Shared\obj\Debug\Ruby.Data.Shared.dll
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Shared\obj\Debug\Ruby.Data.Shared.pdb

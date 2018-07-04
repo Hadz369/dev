@@ -1,0 +1,6 @@
+C:\private\dev\project\VS\Tools\MetroEncrypt\bin\Debug\MetroEncrypt.exe
+C:\private\dev\project\VS\Tools\MetroEncrypt\bin\Debug\MetroEncrypt.pdb
+C:\private\dev\project\VS\Tools\MetroEncrypt\bin\Debug\metropolis.encryption.dll
+C:\private\dev\project\VS\Tools\MetroEncrypt\bin\Debug\Interop.CAPICOM.dll
+C:\private\dev\project\VS\Tools\MetroEncrypt\obj\Debug\MetroEncrypt.exe
+C:\private\dev\project\VS\Tools\MetroEncrypt\obj\Debug\MetroEncrypt.pdb

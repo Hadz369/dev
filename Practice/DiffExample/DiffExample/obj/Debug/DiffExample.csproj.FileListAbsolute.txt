@@ -1,0 +1,8 @@
+C:\private\dev\project\VS\Practice\DiffExample\DiffExample\bin\Debug\DiffExample.exe
+C:\private\dev\project\VS\Practice\DiffExample\DiffExample\bin\Debug\DiffExample.pdb
+C:\private\dev\project\VS\Practice\DiffExample\DiffExample\obj\Debug\DiffExample.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Practice\DiffExample\DiffExample\obj\Debug\DiffExample.Form1.resources
+C:\private\dev\project\VS\Practice\DiffExample\DiffExample\obj\Debug\DiffExample.Properties.Resources.resources
+C:\private\dev\project\VS\Practice\DiffExample\DiffExample\obj\Debug\DiffExample.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\Practice\DiffExample\DiffExample\obj\Debug\DiffExample.exe
+C:\private\dev\project\VS\Practice\DiffExample\DiffExample\obj\Debug\DiffExample.pdb

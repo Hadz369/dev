@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>2CE40600QB</Machine>
+    <WindowsUser>DavidH</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+    <PackageIdentityName>Microsoft.SDKSamples.CustomHidDeviceAccess.CS</PackageIdentityName>
+    <RegisteredManifestChecksum>07C1B4A1A0DF1669234381C340E102BC75751C74D131BB8A2904E068D01A37FC</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>Microsoft.SDKSamples.CustomHidDeviceAccess.CS_1.0.0.0_neutral__8wekyb3d8bbwe</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>Microsoft.SDKSamples.CustomHidDeviceAccess.CS_8wekyb3d8bbwe!CustomHidDeviceAccess.App</RegisteredUserModeAppID>
+    <RegisteredPackageID>Microsoft.SDKSamples.CustomHidDeviceAccess.CS</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-19T09:32:38.849</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\CustomHidDeviceAccess.exe">
+      <PackagePath>CustomHidDeviceAccess.exe</PackagePath>
+      <Modified>2014-05-19T13:14:45.428</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\Assets\microsoft-sdk.png">
+      <PackagePath>Assets\microsoft-sdk.png</PackagePath>
+      <Modified>2014-05-19T09:31:38.190</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\Assets\placeholder-sdk.png">
+      <PackagePath>Assets\placeholder-sdk.png</PackagePath>
+      <Modified>2014-05-19T09:31:38.205</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\Assets\smallTile-sdk.png">
+      <PackagePath>Assets\smallTile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-19T09:31:38.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\Assets\splash-sdk.png">
+      <PackagePath>Assets\splash-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-19T09:31:38.221</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\Assets\squareTile-sdk.png">
+      <PackagePath>Assets\squareTile-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-19T09:31:38.236</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\Assets\storeLogo-sdk.png">
+      <PackagePath>Assets\storeLogo-sdk.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2014-05-19T09:31:38.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\Assets\tile-sdk.png">
+      <PackagePath>Assets\tile-sdk.png</PackagePath>
+      <Modified>2014-05-19T09:31:38.252</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\Assets\windows-sdk.png">
+      <PackagePath>Assets\windows-sdk.png</PackagePath>
+      <Modified>2014-05-19T09:31:38.268</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\App.xbf">
+      <PackagePath>App.xbf</PackagePath>
+      <Modified>2014-05-19T09:32:38.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\Scenario4_InputOutputReports.xbf">
+      <PackagePath>Scenario4_InputOutputReports.xbf</PackagePath>
+      <Modified>2014-05-19T09:32:38.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\Scenario3_InputReportEvents.xbf">
+      <PackagePath>Scenario3_InputReportEvents.xbf</PackagePath>
+      <Modified>2014-05-19T09:32:38.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\Scenario2_FeatureReports.xbf">
+      <PackagePath>Scenario2_FeatureReports.xbf</PackagePath>
+      <Modified>2014-05-19T09:32:38.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\Scenario1_DeviceConnect.xbf">
+      <PackagePath>Scenario1_DeviceConnect.xbf</PackagePath>
+      <Modified>2014-05-19T09:32:38.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\MainPage.xbf">
+      <PackagePath>MainPage.xbf</PackagePath>
+      <Modified>2014-05-19T09:32:38.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\Common\StandardStyles.xbf">
+      <PackagePath>Common\StandardStyles.xbf</PackagePath>
+      <Modified>2014-05-19T09:32:38.052</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\Sample-Utils\SampleTemplateStyles.xbf">
+      <PackagePath>Sample-Utils\SampleTemplateStyles.xbf</PackagePath>
+      <Modified>2014-05-19T09:32:38.068</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\private\dev\project\VS\Practice\HID\C#\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2014-05-19T09:32:38.709</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>

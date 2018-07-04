@@ -1,0 +1,97 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{34A1DE9F-B87C-4EC2-8094-5BB3FF884DC7}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>HS.Network</RootNamespace>
+    <AssemblyName>HS.Network</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="HS.Core">
+      <HintPath>..\..\bin\framework\HS.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="HS.Core.Shared">
+      <HintPath>..\..\bin\framework\HS.Core.Shared.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="NetworkHandler.cs" />
+    <Compile Include="packets\IPacketData.cs" />
+    <Compile Include="packets\PacketBase.cs" />
+    <Compile Include="packets\PacketHeader.cs" />
+    <Compile Include="packets\PacketHelper.cs" />
+    <Compile Include="packets\Common.cs" />
+    <Compile Include="packets\PowerMeter.cs" />
+    <Compile Include="packets\PowerSummary.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="poco\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <PropertyGroup>
+    <PostBuildEvent>if '$(TeamBuild)'=='True' exit 0
+
+REM -------- Edit --------
+SET RELEASEPATH=$(ProjectDir)..\..\bin\framework
+
+REM ----- Don't Edit -----
+SET BINPATH=$(ProjectDir)$(OutDir)
+SET BINFILE=$(TargetFileName)
+SET FILENAME=$(TargetName)
+
+echo Copying assembly file to %25RELEASEPATH%25
+xcopy /y "%25BINPATH%25%25BINFILE%25" "%25RELEASEPATH%25"
+
+if exist "%25BINPATH%25%25BINFILE%25.config" (
+  echo Copying config file
+  xcopy /y "%25BINPATH%25%25BINFILE%25.config" "%25RELEASEPATH%25"
+)
+
+if exist "%25BINPATH%25%25FILENAME%25.pdb" (
+  echo Copying debug file
+  xcopy /y "%25BINPATH%25%25FILENAME%25.pdb" "%25RELEASEPATH%25"
+)
+</PostBuildEvent>
+  </PropertyGroup>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

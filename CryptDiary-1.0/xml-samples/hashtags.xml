@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CryptDiaryHashtags>
+  <Hashtag>
+    <Text>hashtag1</Text>
+    <Date>04.06.2016</Date>
+    <Date>05.06.2016</Date>
+  </Hashtag>
+  <Hashtag>
+    <Text>hashtag2</Text>
+    <Date>03.06.2016</Date>
+  </Hashtag>
+</CryptDiaryHashtags>

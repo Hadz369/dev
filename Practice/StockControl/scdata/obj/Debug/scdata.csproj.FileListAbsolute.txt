@@ -1,0 +1,9 @@
+Z:\pub\project\vs\StockControl\scdata\obj\Debug\ResolveAssemblyReference.cache
+Z:\pub\project\vs\StockControl\scdata\bin\Debug\scdata.dll
+Z:\pub\project\vs\StockControl\scdata\bin\Debug\scdata.pdb
+Z:\pub\project\vs\StockControl\scdata\obj\Debug\scdata.dll
+Z:\pub\project\vs\StockControl\scdata\obj\Debug\scdata.pdb
+C:\private\dev\project\VS\Practice\StockControl\scdata\bin\Debug\scdata.dll
+C:\private\dev\project\VS\Practice\StockControl\scdata\bin\Debug\scdata.pdb
+C:\private\dev\project\VS\Practice\StockControl\scdata\obj\Debug\scdata.dll
+C:\private\dev\project\VS\Practice\StockControl\scdata\obj\Debug\scdata.pdb

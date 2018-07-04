@@ -1,0 +1,14 @@
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.Gateway.Shared\bin\Debug\Metro.Service.Gateway.Shared.dll
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.Gateway.Shared\bin\Debug\Metro.Service.Gateway.Shared.pdb
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.Gateway.Shared\obj\Debug\Metro.Service.Gateway.Shared.dll
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.Gateway.Shared\obj\Debug\Metro.Service.Gateway.Shared.pdb
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.Gateway.Shared\bin\Debug\Metro.Core.Shared.dll
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.Gateway.Shared\bin\Debug\Metro.Core.Shared.pdb
+C:\private\dev\project\VS\Metro\svclayer\Metro.Service.Gateway.Shared\bin\Debug\Metro.Service.Gateway.Shared.dll
+C:\private\dev\project\VS\Metro\svclayer\Metro.Service.Gateway.Shared\bin\Debug\Metro.Service.Gateway.Shared.pdb
+C:\private\dev\project\VS\Metro\svclayer\Metro.Service.Gateway.Shared\bin\Debug\Metro.Core.Shared.dll
+C:\private\dev\project\VS\Metro\svclayer\Metro.Service.Gateway.Shared\bin\Debug\Metro.Core.Shared.pdb
+C:\private\dev\project\VS\Metro\svclayer\Metro.Service.Gateway.Shared\obj\Debug\Metro.Service.Gateway.Shared.dll
+C:\private\dev\project\VS\Metro\svclayer\Metro.Service.Gateway.Shared\obj\Debug\Metro.Service.Gateway.Shared.pdb
+C:\private\dev\project\VS\Metro\Develop.Bin\shared\Metro.Service.Gateway.Shared.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\shared\Metro.Service.Gateway.Shared.pdb

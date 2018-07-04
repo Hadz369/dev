@@ -1,0 +1,4 @@
+C:\private\dev\project\VS\Framework\Framework.Data\bin\Debug\Framework.Data.dll
+C:\private\dev\project\VS\Framework\Framework.Data\bin\Debug\Framework.Data.pdb
+C:\private\dev\project\VS\Framework\Framework.Data\obj\Debug\Framework.Data.dll
+C:\private\dev\project\VS\Framework\Framework.Data\obj\Debug\Framework.Data.pdb

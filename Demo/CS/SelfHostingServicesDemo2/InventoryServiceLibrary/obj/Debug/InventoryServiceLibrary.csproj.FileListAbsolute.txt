@@ -1,0 +1,42 @@
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\InventoryServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Intro to WCF\Sample\CS\IntroToWCFDemo\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISDemo\InventoryServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISDemo\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISDemo\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\InventoryServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostUsingIISAndWASDemo\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\InventoryServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Hosting Services\Sample\CS\HostingServicesDemo\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\InventoryServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\InventoryServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo Completed\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll.config
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\InventoryServiceLibrary\bin\Debug\InventoryServiceLibrary.pdb
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\InventoryServiceLibrary\obj\Debug\ResolveAssemblyReference.cache
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.dll
+D:\Articles\WCF How To Articles\Self Hosting Services\Sample\CS\SelfHostingServicesDemo2\InventoryServiceLibrary\obj\Debug\InventoryServiceLibrary.pdb

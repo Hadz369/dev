@@ -1,0 +1,15 @@
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\SelfHosting\bin\Debug\SelfHosting.exe
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\SelfHosting\bin\Debug\SelfHosting.pdb
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\SelfHosting\bin\Debug\MSDNMagazine.dll
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\SelfHosting\bin\Debug\MSDNMagazine.pdb
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\SelfHosting\obj\Debug\ResolveAssemblyReference.cache
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\SelfHosting\obj\Debug\SelfHosting.exe
+C:\Users\jon\Desktop\Docs\msdn\code\MSDNMagazine\SelfHosting\obj\Debug\SelfHosting.pdb
+C:\private\dev\project\VS\MSDNMagazine\SelfHosting\bin\Debug\SelfHosting.exe.config
+C:\private\dev\project\VS\MSDNMagazine\SelfHosting\obj\Debug\SelfHosting.exe
+C:\private\dev\project\VS\MSDNMagazine\SelfHosting\obj\Debug\SelfHosting.pdb
+C:\private\dev\project\VS\MSDNMagazine\SelfHosting\bin\Debug\SelfHosting.exe
+C:\private\dev\project\VS\MSDNMagazine\SelfHosting\bin\Debug\SelfHosting.pdb
+C:\private\dev\project\VS\MSDNMagazine\SelfHosting\bin\Debug\MSDNMagazine.dll
+C:\private\dev\project\VS\MSDNMagazine\SelfHosting\bin\Debug\MSDNMagazine.pdb
+C:\private\dev\project\VS\MSDNMagazine\SelfHosting\obj\Debug\SelfHosting.csprojResolveAssemblyReference.cache

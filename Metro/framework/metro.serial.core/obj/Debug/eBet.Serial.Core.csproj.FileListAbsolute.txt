@@ -1,0 +1,5 @@
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\framework\eBet.Serial.Core.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\framework\eBet.Serial.Core.pdb
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Core\eBet.Serial.Core\obj\Debug\eBet.Serial.Core.csprojResolveAssemblyReference.cache
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Core\eBet.Serial.Core\obj\Debug\eBet.Serial.Core.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Core\eBet.Serial.Core\obj\Debug\eBet.Serial.Core.pdb

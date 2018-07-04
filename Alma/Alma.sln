@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alma", "Alma\Alma.csproj", "{FA4B5591-2C6A-4494-8A35-396D2030F09E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alma.Shared", "Alma.Shared\Alma.Shared.csproj", "{5311FB55-25E9-46B3-990C-E932A507E2F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alma.Controls", "Alma.Controls\Alma.Controls.csproj", "{ADD7340E-0DDE-4C2C-AB36-35FB990A1532}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alma.Event", "Alma.Event\Alma.Event.csproj", "{4488C407-E0A9-4351-A154-D65D0FC13E8B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Control", "Core.Control\Core.Control.csproj", "{712DA2E5-51BE-48FB-9DBB-6D084FA6F72C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Module.Shell", "Module.Shell\Module.Shell.csproj", "{42DCD5D9-6DBB-484E-9AE1-773876B64EE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alma.Updater", "Alma.Updater\Alma.Updater.csproj", "{B86A293D-0808-4E6F-8B86-6A7E47D648FF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FA4B5591-2C6A-4494-8A35-396D2030F09E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA4B5591-2C6A-4494-8A35-396D2030F09E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA4B5591-2C6A-4494-8A35-396D2030F09E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA4B5591-2C6A-4494-8A35-396D2030F09E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5311FB55-25E9-46B3-990C-E932A507E2F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5311FB55-25E9-46B3-990C-E932A507E2F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5311FB55-25E9-46B3-990C-E932A507E2F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5311FB55-25E9-46B3-990C-E932A507E2F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADD7340E-0DDE-4C2C-AB36-35FB990A1532}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADD7340E-0DDE-4C2C-AB36-35FB990A1532}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADD7340E-0DDE-4C2C-AB36-35FB990A1532}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADD7340E-0DDE-4C2C-AB36-35FB990A1532}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4488C407-E0A9-4351-A154-D65D0FC13E8B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4488C407-E0A9-4351-A154-D65D0FC13E8B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4488C407-E0A9-4351-A154-D65D0FC13E8B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4488C407-E0A9-4351-A154-D65D0FC13E8B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{712DA2E5-51BE-48FB-9DBB-6D084FA6F72C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{712DA2E5-51BE-48FB-9DBB-6D084FA6F72C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{712DA2E5-51BE-48FB-9DBB-6D084FA6F72C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{712DA2E5-51BE-48FB-9DBB-6D084FA6F72C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42DCD5D9-6DBB-484E-9AE1-773876B64EE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42DCD5D9-6DBB-484E-9AE1-773876B64EE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42DCD5D9-6DBB-484E-9AE1-773876B64EE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42DCD5D9-6DBB-484E-9AE1-773876B64EE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B86A293D-0808-4E6F-8B86-6A7E47D648FF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B86A293D-0808-4E6F-8B86-6A7E47D648FF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B86A293D-0808-4E6F-8B86-6A7E47D648FF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B86A293D-0808-4E6F-8B86-6A7E47D648FF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,4 @@
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\framework\eBet.Core.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\framework\eBet.Core.pdb
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Core\eBet.Core\obj\Debug\eBet.Core.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Core\eBet.Core\obj\Debug\eBet.Core.pdb

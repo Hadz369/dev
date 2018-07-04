@@ -1,0 +1,8 @@
+C:\private\dev\project\VS\Metro\Develop.Bin\Metro.DataServiceHost.exe.config
+C:\private\dev\project\VS\Metro\Develop.Bin\Metro.DataServiceHost.exe
+C:\private\dev\project\VS\Metro\Develop.Bin\Metro.DataServiceHost.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.DataServiceHost\obj\Debug\Metro.DataServiceHost.exe
+C:\private\dev\project\VS\Metro\datalayer\Metro.DataServiceHost\obj\Debug\Metro.DataServiceHost.pdb
+C:\private\dev\project\VS\Metro\DAL\Metro.DataServiceHost\obj\Debug\Metro.DataServiceHost.exe
+C:\private\dev\project\VS\Metro\DAL\Metro.DataServiceHost\obj\Debug\Metro.DataServiceHost.pdb
+C:\private\dev\project\VS\Metro\DAL\Metro.DataServiceHost\obj\Debug\Metro.DataServiceHost.csprojResolveAssemblyReference.cache

@@ -1,0 +1,1 @@
+C:\private\dev\project\VS\Practice\HID\C#\CustomHidDeviceAccess.csproj;neutral

@@ -1,0 +1,35 @@
+K 25
+svn:wc:ra_dav:version-url
+V 35
+/svn/!svn/ver/39498/FabTab/DragDrop
+END
+IDropTargetAdvisor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/39335/FabTab/DragDrop/IDropTargetAdvisor.cs
+END
+DragDropManager.cs
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/svn/!svn/ver/39335/FabTab/DragDrop/DragDropManager.cs
+END
+IDragSourceAdvisor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/39335/FabTab/DragDrop/IDragSourceAdvisor.cs
+END
+DropPreviewAdorner.cs
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/svn/!svn/ver/39335/FabTab/DragDrop/DropPreviewAdorner.cs
+END
+FabTabDragDropAdvisor.cs
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/svn/!svn/ver/39498/FabTab/DragDrop/FabTabDragDropAdvisor.cs
+END

@@ -1,0 +1,8 @@
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\ConsoleHost\bin\Debug\ConsoleHost.exe.config
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\ConsoleHost\bin\Debug\ConsoleHost.exe
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\ConsoleHost\bin\Debug\ConsoleHost.pdb
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\ConsoleHost\bin\Debug\SecureServiceLibrary.dll
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\ConsoleHost\bin\Debug\SecureServiceLibrary.pdb
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\ConsoleHost\obj\Debug\ConsoleHost.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\ConsoleHost\obj\Debug\ConsoleHost.exe
+C:\private\dev\project\VS\CS\InternalSelfHostedServiceDemo\ConsoleHost\obj\Debug\ConsoleHost.pdb

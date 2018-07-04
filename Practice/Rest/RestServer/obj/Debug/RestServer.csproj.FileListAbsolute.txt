@@ -1,0 +1,12 @@
+C:\private\dev\project\VS\Practice\Rest\RestServer\bin\Debug\RestServer.exe
+C:\private\dev\project\VS\Practice\Rest\RestServer\bin\Debug\RestServer.pdb
+C:\private\dev\project\VS\Practice\Rest\RestServer\obj\Debug\RestServer.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Practice\Rest\RestServer\obj\Debug\MainWindow.baml
+C:\private\dev\project\VS\Practice\Rest\RestServer\obj\Debug\MainWindow.g.cs
+C:\private\dev\project\VS\Practice\Rest\RestServer\obj\Debug\App.g.cs
+C:\private\dev\project\VS\Practice\Rest\RestServer\obj\Debug\RestServer_MarkupCompile.cache
+C:\private\dev\project\VS\Practice\Rest\RestServer\obj\Debug\RestServer.g.resources
+C:\private\dev\project\VS\Practice\Rest\RestServer\obj\Debug\RestServer.Properties.Resources.resources
+C:\private\dev\project\VS\Practice\Rest\RestServer\obj\Debug\RestServer.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\Practice\Rest\RestServer\obj\Debug\RestServer.exe
+C:\private\dev\project\VS\Practice\Rest\RestServer\obj\Debug\RestServer.pdb

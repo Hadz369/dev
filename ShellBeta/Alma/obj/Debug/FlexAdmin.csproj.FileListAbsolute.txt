@@ -1,0 +1,14 @@
+c:\users\dhadley\documents\visual studio 2013\Projects\FlexAdmin\obj\Debug\FlexAdmin_MarkupCompile.cache
+c:\users\dhadley\documents\visual studio 2013\Projects\FlexAdmin\obj\Debug\FlexAdmin.g.resources
+c:\users\dhadley\documents\visual studio 2013\Projects\FlexAdmin\bin\Debug\FlexAdmin.exe.config
+c:\users\dhadley\documents\visual studio 2013\Projects\FlexAdmin\bin\Debug\FlexAdmin.exe
+c:\users\dhadley\documents\visual studio 2013\Projects\FlexAdmin\bin\Debug\FlexAdmin.pdb
+c:\users\dhadley\documents\visual studio 2013\Projects\FlexAdmin\obj\Debug\FlexAdmin.exe
+c:\users\dhadley\documents\visual studio 2013\Projects\FlexAdmin\obj\Debug\FlexAdmin.pdb
+c:\users\dhadley\documents\visual studio 2013\Projects\FlexAdmin\obj\Debug\GeneratedInternalTypeHelper.g.cs
+c:\users\dhadley\documents\visual studio 2013\Projects\FlexAdmin\obj\Debug\FlexAdmin_MarkupCompile.lref
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Windows\Login.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Windows\Login.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Windows\Shell.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\Windows\Shell.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\FlexAdmin\obj\Debug\FlexAdmin.csprojResolveAssemblyReference.cache

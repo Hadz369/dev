@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Ruby.Data.Cache.dll
+C:\private\dev\project\VS\ClientServer\Develop.Bin\DAL\Ruby.Data.Cache.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Cache\obj\Debug\Ruby.Data.Cache.dll
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Cache\obj\Debug\Ruby.Data.Cache.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Cache\obj\Debug\Ruby.Data.Cache.csprojResolveAssemblyReference.cache

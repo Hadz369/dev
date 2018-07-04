@@ -1,0 +1,1 @@
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Member\obj\Debug\Ruby.Data.Member.csprojResolveAssemblyReference.cache

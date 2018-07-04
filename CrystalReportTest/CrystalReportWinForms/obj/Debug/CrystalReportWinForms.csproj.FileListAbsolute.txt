@@ -1,0 +1,7 @@
+C:\private\dev\project\VS\CrystalReportTest\CrystalReportWinForms\bin\Debug\CrystalReportWinForms.exe
+C:\private\dev\project\VS\CrystalReportTest\CrystalReportWinForms\bin\Debug\CrystalReportWinForms.pdb
+C:\private\dev\project\VS\CrystalReportTest\CrystalReportWinForms\obj\Debug\CrystalReportWinForms.Form1.resources
+C:\private\dev\project\VS\CrystalReportTest\CrystalReportWinForms\obj\Debug\CrystalReportWinForms.Properties.Resources.resources
+C:\private\dev\project\VS\CrystalReportTest\CrystalReportWinForms\obj\Debug\CrystalReportWinForms.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\CrystalReportTest\CrystalReportWinForms\obj\Debug\CrystalReportWinForms.exe
+C:\private\dev\project\VS\CrystalReportTest\CrystalReportWinForms\obj\Debug\CrystalReportWinForms.pdb

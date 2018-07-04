@@ -1,0 +1,10 @@
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Data.CMS.dll
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Data.CMS.pdb
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Data.CMS\obj\Release\eBet.Data.CMS.csprojResolveAssemblyReference.cache
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Data.CMS\obj\Release\eBet.Data.CMS.dll
+C:\development\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Data.CMS\obj\Release\eBet.Data.CMS.pdb
+R:\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Data.CMS.dll
+R:\VenuTech\System\Source\Desktop\Services\CMStore\Develop.Bin\framework\eBet.Data.CMS.pdb
+R:\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Data.CMS\obj\Release\eBet.Data.CMS.csprojResolveAssemblyReference.cache
+R:\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Data.CMS\obj\Release\eBet.Data.CMS.dll
+R:\VenuTech\System\Source\Desktop\Services\CMStore\eBet.Data.CMS\obj\Release\eBet.Data.CMS.pdb

@@ -1,0 +1,4 @@
+C:\private\dev\project\MONO\TestConsole\TestConsole\bin\Debug\TestConsole.exe
+C:\private\dev\project\MONO\TestConsole\TestConsole\bin\Debug\TestConsole.pdb
+C:\private\dev\project\MONO\TestConsole\TestConsole\obj\x86\Debug\TestConsole.exe
+C:\private\dev\project\MONO\TestConsole\TestConsole\obj\x86\Debug\TestConsole.pdb

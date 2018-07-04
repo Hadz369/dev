@@ -1,0 +1,15 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Shared\bin\Debug\Alma.Shared.dll.config
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Shared\bin\Debug\Alma.Shared.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Shared\bin\Debug\Alma.Shared.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\Alma.Shared.dll.config
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\Alma.Shared.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\Alma.Shared.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Shared\obj\Debug\Alma.Shared.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Shared\obj\Debug\Alma.Shared.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Shared\obj\Debug\Alma.Shared.pdb
+C:\private\dev\project\VS\Alma\Develop.Bin\Alma.Shared.dll.config
+C:\private\dev\project\VS\Alma\Develop.Bin\Alma.Shared.dll
+C:\private\dev\project\VS\Alma\Develop.Bin\Alma.Shared.pdb
+C:\private\dev\project\VS\Alma\Alma.Shared\obj\Debug\Alma.Shared.dll
+C:\private\dev\project\VS\Alma\Alma.Shared\obj\Debug\Alma.Shared.pdb
+C:\private\dev\project\VS\Alma\Alma.Shared\obj\Debug\Alma.Shared.csprojResolveAssemblyReference.cache

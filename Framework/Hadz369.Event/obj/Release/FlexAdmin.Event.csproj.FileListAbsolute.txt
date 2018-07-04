@@ -1,0 +1,5 @@
+C:\work\source\C#\class\FlexAdmin.Event\bin\Release\FlexAdmin.Event.dll
+C:\work\source\C#\class\FlexAdmin.Event\bin\Release\FlexAdmin.Event.pdb
+C:\work\source\C#\class\FlexAdmin.Event\obj\Release\ResolveAssemblyReference.cache
+C:\work\source\C#\class\FlexAdmin.Event\obj\Release\FlexAdmin.Event.dll
+C:\work\source\C#\class\FlexAdmin.Event\obj\Release\FlexAdmin.Event.pdb

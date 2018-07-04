@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/InventoryServiceLibrary" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/InventoryServiceLibrary" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:complexType name="Inventory">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="ProductId" type="xs:int" />
+      <xs:element minOccurs="0" name="UnitsInStock" type="xs:short" />
+      <xs:element minOccurs="0" name="UnitsOnOrder" type="xs:short" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Inventory" nillable="true" type="tns:Inventory" />
+</xs:schema>

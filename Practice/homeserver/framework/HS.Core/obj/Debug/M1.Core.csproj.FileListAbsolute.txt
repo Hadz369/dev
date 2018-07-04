@@ -1,0 +1,7 @@
+B:\MetroOne\TwinTowns\src\Framework\M1.core\bin\Debug\M1.Core.dll
+B:\MetroOne\TwinTowns\src\Framework\M1.core\bin\Debug\M1.Core.pdb
+B:\MetroOne\TwinTowns\src\Framework\M1.core\bin\Debug\M1.Core.Shared.dll
+B:\MetroOne\TwinTowns\src\Framework\M1.core\bin\Debug\M1.Core.Shared.pdb
+B:\MetroOne\TwinTowns\src\Framework\M1.core\obj\Debug\M1.Core.csprojResolveAssemblyReference.cache
+B:\MetroOne\TwinTowns\src\Framework\M1.core\obj\Debug\M1.Core.dll
+B:\MetroOne\TwinTowns\src\Framework\M1.core\obj\Debug\M1.Core.pdb

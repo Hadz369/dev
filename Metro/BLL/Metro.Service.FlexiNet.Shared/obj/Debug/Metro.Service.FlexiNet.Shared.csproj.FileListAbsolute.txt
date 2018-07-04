@@ -1,0 +1,7 @@
+C:\private\dev\project\VS\Metro\Develop.Bin\BLL\Metro.Service.FlexiNet.Shared.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\BLL\Metro.Service.FlexiNet.Shared.pdb
+C:\private\dev\project\VS\Metro\Develop.Bin\shared\Metro.Service.FlexiNet.Shared.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\shared\Metro.Service.FlexiNet.Shared.pdb
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.FlexiNet.Shared\obj\Debug\Metro.Service.FlexiNet.Shared.dll
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.FlexiNet.Shared\obj\Debug\Metro.Service.FlexiNet.Shared.pdb
+C:\private\dev\project\VS\Metro\BLL\Metro.Service.FlexiNet.Shared\obj\Debug\Metro.Service.FlexiNet.Shared.csprojResolveAssemblyReference.cache

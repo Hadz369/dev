@@ -1,0 +1,11 @@
+C:\private\dev\project\VS\Metro\BLL\Metro.Server.Cache\obj\Debug\metro.service.cache.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Metro\BLL\Metro.Server.Cache\obj\Debug\metro.service.cache.dll
+C:\private\dev\project\VS\Metro\BLL\Metro.Server.Cache\obj\Debug\metro.service.cache.pdb
+C:\private\dev\project\VS\Metro\Develop.Bin\BLL\Metro.Service.Cache.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\BLL\Metro.Service.Cache.pdb
+C:\private\dev\project\VS\Metro\BLL\metro.service.cache\obj\Debug\Metro.Service.Cache.dll
+C:\private\dev\project\VS\Metro\BLL\metro.service.cache\obj\Debug\Metro.Service.Cache.pdb
+C:\private\dev\project\VS\Metro\svclayer\metro.service.cache\obj\Debug\Metro.Service.Cache.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Metro\svclayer\metro.service.cache\obj\Debug\Metro.Service.Cache.dll
+C:\private\dev\project\VS\Metro\svclayer\metro.service.cache\obj\Debug\Metro.Service.Cache.pdb
+C:\private\dev\project\VS\Metro\BLL\metro.service.cache\obj\Debug\Metro.Service.Cache.csprojResolveAssemblyReference.cache

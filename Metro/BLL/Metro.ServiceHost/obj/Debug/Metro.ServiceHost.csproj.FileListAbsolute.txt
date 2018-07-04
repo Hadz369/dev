@@ -1,0 +1,17 @@
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\bin\Debug\Metro.ServiceHost.exe
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\bin\Debug\Metro.ServiceHost.pdb
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\bin\Debug\Metro.Core.dll
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\bin\Debug\Metro.Data.Core.dll
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\bin\Debug\Metro.Core.Shared.dll
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\bin\Debug\Metro.Core.pdb
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\bin\Debug\Metro.Data.Core.pdb
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\bin\Debug\Metro.Data.Core.xml
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\bin\Debug\Metro.Core.Shared.pdb
+C:\private\dev\project\VS\Metro\svclayer\Metro.ServiceHost\obj\Debug\Metro.ServiceHost.exe
+C:\private\dev\project\VS\Metro\svclayer\Metro.ServiceHost\obj\Debug\Metro.ServiceHost.pdb
+C:\private\dev\project\VS\Metro\svclayer\Metro.ServiceHost\obj\Debug\Metro.ServiceHost.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Metro\Develop.Bin\Metro.ServiceHost.exe.config
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\obj\Debug\Metro.ServiceHost.exe
+C:\private\dev\project\VS\Metro\BLL\Metro.ServiceHost\obj\Debug\Metro.ServiceHost.pdb
+C:\private\dev\project\VS\Metro\Develop.Bin\Metro.ServiceHost.exe
+C:\private\dev\project\VS\Metro\Develop.Bin\Metro.ServiceHost.pdb

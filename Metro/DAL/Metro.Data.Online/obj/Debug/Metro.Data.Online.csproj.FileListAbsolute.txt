@@ -1,0 +1,8 @@
+C:\private\dev\project\VS\Metro\Develop.Bin\DAL\Metro.Data.Online.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\DAL\Metro.Data.Online.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Online\obj\Debug\Metro.Data.Online.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Online\obj\Debug\Metro.Data.Online.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Online\obj\Debug\Metro.Data.Online.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Online\obj\Debug\Metro.Data.Online.dll
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Online\obj\Debug\Metro.Data.Online.pdb
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Online\obj\Debug\Metro.Data.Online.csprojResolveAssemblyReference.cache

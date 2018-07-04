@@ -1,0 +1,37 @@
+﻿<Window
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:ig="http://schemas.infragistics.com/xaml" x:Class="hsclient.MainWindow"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition Width="150" />
+            <ColumnDefinition />
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Column="0">
+            <Button x:Name="btnStart" Content="Start" Click="btnStart_Click"/>
+            <Button x:Name="btnStop" Content="Stop" Click="btnStop_Click"/>
+            <Button x:Name="btnRegister" Content="Register" Click="btnRegister_Click" />
+            <Button x:Name="btnUnregister" Content="Unregister" Click="btnUnregister_Click" />
+        </StackPanel>
+
+        <StackPanel  Grid.Column="1">
+            <!--<ig:XamLinearGauge x:Name="gauge" Height="115" Width="136">
+                <ig:XamLinearGauge.Scales>
+                    <ig:LinearGaugeScale StartValue="0" Interval="10" EndValue="200">
+                        <ig:LinearGaugeScale.Needles>
+                            <ig:LinearGaugeNeedle Value="{Binding Value}"/>
+                        </ig:LinearGaugeScale.Needles>
+                        <ig:LinearGaugeScale.BarMarkers>
+                            <ig:LinearGaugeBarMarker/>
+                        </ig:LinearGaugeScale.BarMarkers>
+                    </ig:LinearGaugeScale>
+                </ig:XamLinearGauge.Scales>
+            </ig:XamLinearGauge>-->
+        </StackPanel>
+        
+        <ListBox x:Name="lbMessages" Grid.Column="2" >
+        </ListBox>
+    </Grid>
+</Window>

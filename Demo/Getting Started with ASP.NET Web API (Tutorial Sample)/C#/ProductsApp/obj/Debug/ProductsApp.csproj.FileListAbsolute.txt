@@ -1,0 +1,13 @@
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\bin\ProductsApp.dll
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\bin\ProductsApp.pdb
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\bin\Newtonsoft.Json.dll
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\bin\System.Net.Http.Formatting.dll
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\bin\System.Web.Http.dll
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\bin\System.Web.Http.WebHost.dll
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\bin\Newtonsoft.Json.xml
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\bin\System.Net.Http.Formatting.xml
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\bin\System.Web.Http.xml
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\bin\System.Web.Http.WebHost.xml
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\obj\Debug\ProductsApp.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\obj\Debug\ProductsApp.dll
+C:\private\dev\project\VS\Demo\Getting Started with ASP.NET Web API (Tutorial Sample)\C#\ProductsApp\obj\Debug\ProductsApp.pdb

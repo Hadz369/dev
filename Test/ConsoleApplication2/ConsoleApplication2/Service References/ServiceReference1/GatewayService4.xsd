@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<xs:schema xmlns:tns="http://schemas.datacontract.org/2004/07/EPSGateway.Business" elementFormDefault="qualified" targetNamespace="http://schemas.datacontract.org/2004/07/EPSGateway.Business" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:import schemaLocation="http://devdialout2:28100/EPSGatewayService/GatewayService.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+  <xs:complexType name="Common.GatewayMetersReply">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="MeterCollection" nillable="true" type="tns:ArrayOfCommon.GatewayMeterSnapshot" />
+      <xs:element minOccurs="0" name="OperationalResult" type="tns:Common.GatewayQueryResult" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Common.GatewayMetersReply" nillable="true" type="tns:Common.GatewayMetersReply" />
+  <xs:complexType name="ArrayOfCommon.GatewayMeterSnapshot">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Common.GatewayMeterSnapshot" nillable="true" type="tns:Common.GatewayMeterSnapshot" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCommon.GatewayMeterSnapshot" nillable="true" type="tns:ArrayOfCommon.GatewayMeterSnapshot" />
+  <xs:complexType name="Common.GatewayMeterSnapshot">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="CurrentMeters" nillable="true" type="tns:ArrayOfCommon.GatewayMeterDetail" />
+      <xs:element minOccurs="0" name="EgmMode" type="tns:Common.GatewayEgmModes" />
+      <xs:element minOccurs="0" name="EgmState" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="MachineID" type="xs:int" />
+      <xs:element minOccurs="0" name="MemberID" type="xs:unsignedInt" />
+      <xs:element minOccurs="0" name="MemberName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PlayerTurnoverInSession" type="xs:unsignedInt" />
+      <xs:element minOccurs="0" name="SnapshotTime" type="xs:dateTime" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Common.GatewayMeterSnapshot" nillable="true" type="tns:Common.GatewayMeterSnapshot" />
+  <xs:complexType name="ArrayOfCommon.GatewayMeterDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" maxOccurs="unbounded" name="Common.GatewayMeterDetail" nillable="true" type="tns:Common.GatewayMeterDetail" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="ArrayOfCommon.GatewayMeterDetail" nillable="true" type="tns:ArrayOfCommon.GatewayMeterDetail" />
+  <xs:complexType name="Common.GatewayMeterDetail">
+    <xs:sequence>
+      <xs:element minOccurs="0" name="LastChangedTime" type="xs:dateTime" />
+      <xs:element minOccurs="0" name="MeterID" type="xs:int" />
+      <xs:element minOccurs="0" name="MeterName" nillable="true" type="xs:string" />
+      <xs:element minOccurs="0" name="PreviousValue" type="xs:double" />
+      <xs:element minOccurs="0" name="Value" type="xs:double" />
+    </xs:sequence>
+  </xs:complexType>
+  <xs:element name="Common.GatewayMeterDetail" nillable="true" type="tns:Common.GatewayMeterDetail" />
+  <xs:simpleType name="Common.GatewayEgmModes">
+    <xs:annotation>
+      <xs:appinfo>
+        <ActualType Name="unsignedByte" Namespace="http://www.w3.org/2001/XMLSchema" xmlns="http://schemas.microsoft.com/2003/10/Serialization/" />
+      </xs:appinfo>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="Test" />
+      <xs:enumeration value="Attendant" />
+      <xs:enumeration value="Idle" />
+      <xs:enumeration value="Play" />
+      <xs:enumeration value="Error" />
+      <xs:enumeration value="Reserve" />
+      <xs:enumeration value="TestScreen" />
+      <xs:enumeration value="WaitBet">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">8</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Payout">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">9</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+      <xs:enumeration value="Unknown">
+        <xs:annotation>
+          <xs:appinfo>
+            <EnumerationValue xmlns="http://schemas.microsoft.com/2003/10/Serialization/">100</EnumerationValue>
+          </xs:appinfo>
+        </xs:annotation>
+      </xs:enumeration>
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Common.GatewayEgmModes" nillable="true" type="tns:Common.GatewayEgmModes" />
+  <xs:simpleType name="Common.GatewayQueryResult">
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="ok" />
+      <xs:enumeration value="noMachines" />
+      <xs:enumeration value="egmNotFound" />
+      <xs:enumeration value="serverBusy" />
+      <xs:enumeration value="otherError" />
+    </xs:restriction>
+  </xs:simpleType>
+  <xs:element name="Common.GatewayQueryResult" nillable="true" type="tns:Common.GatewayQueryResult" />
+</xs:schema>

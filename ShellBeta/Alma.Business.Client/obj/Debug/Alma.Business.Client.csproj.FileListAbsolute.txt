@@ -1,0 +1,4 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Alma.Business.Client\bin\Debug\Alma.Business.Client.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Alma.Business.Client\bin\Debug\Alma.Business.Client.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Alma.Business.Client\obj\Debug\Alma.Business.Client.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Alma.Business.Client\obj\Debug\Alma.Business.Client.pdb

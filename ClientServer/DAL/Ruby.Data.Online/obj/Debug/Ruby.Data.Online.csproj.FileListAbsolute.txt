@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Online\bin\Debug\Ruby.Data.Online.dll
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Online\bin\Debug\Ruby.Data.Online.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Online\obj\Debug\Ruby.Data.Online.dll
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Online\obj\Debug\Ruby.Data.Online.pdb
+C:\private\dev\project\VS\ClientServer\DAL\Ruby.Data.Online\obj\Debug\Ruby.Data.Online.csprojResolveAssemblyReference.cache

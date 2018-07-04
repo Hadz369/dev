@@ -1,0 +1,4 @@
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Business\bin\Debug\eBet.Business.exe
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Business\bin\Debug\eBet.Business.pdb
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Business\obj\Debug\eBet.Business.exe
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Service\eBet.Business\obj\Debug\eBet.Business.pdb

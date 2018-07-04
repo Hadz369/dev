@@ -1,0 +1,2 @@
+C:\private\dev\project\MONO\Network\Xbee.TestHarness\obj\Debug\Xbee.TestHarness.csprojResolveAssemblyReference.cache
+Q:\project\MONO\Network\Xbee.TestHarness\obj\Debug\Xbee.TestHarness.csprojResolveAssemblyReference.cache

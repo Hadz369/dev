@@ -1,0 +1,4 @@
+.pdb
+.cs
+C1.*.xml
+Infragistics.*.xml

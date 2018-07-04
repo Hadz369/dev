@@ -1,0 +1,12 @@
+R:\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System.Shared\bin\Debug\eBet.Data.System.Shared.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System.Shared\bin\Debug\eBet.Data.System.Shared.pdb
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.System.Shared.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.System.Shared.pdb
+R:\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System.Shared\obj\Debug\eBet.Data.System.Shared.csprojResolveAssemblyReference.cache
+R:\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System.Shared\obj\Debug\eBet.Data.System.Shared.dll
+R:\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System.Shared\obj\Debug\eBet.Data.System.Shared.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.System.Shared.dll
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\DAL\eBet.Data.System.Shared.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System.Shared\obj\Debug\eBet.Data.System.Shared.csprojResolveAssemblyReference.cache
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System.Shared\obj\Debug\eBet.Data.System.Shared.dll
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\DAL\eBet.Data.System.Shared\obj\Debug\eBet.Data.System.Shared.pdb

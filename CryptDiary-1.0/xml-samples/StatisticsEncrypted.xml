@@ -1,0 +1,4 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<CryptDiary>
+	<EncryptedData Type="http://www.w3.org/2001/04/xmlenc#Element" xmlns="http://www.w3.org/2001/04/xmlenc#"><EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc" /><CipherData><CipherValue>Cw+DGRkUonNsgtHxdvKhbhw8AEdJBHZCrc+SS+bPXkxw7T2GC3VCk0R0uwQmRUACePVHw3qwqf2fhnMMiwUREGaFGX+tVEO1if3VDAfLOOO+zI2H+4EJ6Ofm3AyizP28iMB5yU8alcEPN/6TU+SwfGB24irufyrXS66McQ1ZMCPqQLw8XkxRSsLh0JhbOb19egIE4O4sno/XtP89mHOJ/fWTC87JUIjkB/2ad7B6VzgXXNdiD3zYzX0R7XQeGqkX4Vb3xIi79jLadFBBNrER7/PMjXQDKMPq7r5/uvy9DFCF7Oa91OfvVVTxSSRYpZnyGlqfvTSyeNsZ0wGxgEletKC9pjTyEqKI01tAmOdj1w1OBVZ+B9zMUZuM82aJkKkfjbeVYtER9rh8yxwAmdhEgDTATy0YwsKMQy8X/2pR15w=</CipherValue></CipherData></EncryptedData>
+<UsedPasswordIterations>1000</UsedPasswordIterations></CryptDiary>

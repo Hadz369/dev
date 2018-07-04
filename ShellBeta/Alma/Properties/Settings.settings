@@ -1,0 +1,18 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="Alma.Properties" GeneratedClassName="Settings">
+  <Profiles />
+  <Settings>
+    <Setting Name="ShellFileName" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">ModernShell.dll</Value>
+    </Setting>
+    <Setting Name="WaterMarkImage" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/image/watermark.jpg</Value>
+    </Setting>
+    <Setting Name="ModulePath" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">module</Value>
+    </Setting>
+    <Setting Name="LogTraceLevel" Type="System.Int32" Scope="Application">
+      <Value Profile="(Default)">4</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,10 @@
+C:\private\dev\project\VS\Demo\vncsharp\VncSharpExampleCS\bin\Debug\VncSharpExampleCS.exe
+C:\private\dev\project\VS\Demo\vncsharp\VncSharpExampleCS\bin\Debug\VncSharpExampleCS.pdb
+C:\private\dev\project\VS\Demo\vncsharp\VncSharpExampleCS\bin\Debug\VncSharp.dll
+C:\private\dev\project\VS\Demo\vncsharp\VncSharpExampleCS\obj\Debug\VncSharpExampleCS.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Demo\vncsharp\VncSharpExampleCS\obj\Debug\VncSharp.ConnectDialog.resources
+C:\private\dev\project\VS\Demo\vncsharp\VncSharpExampleCS\obj\Debug\VncSharpExampleCS.form.resources
+C:\private\dev\project\VS\Demo\vncsharp\VncSharpExampleCS\obj\Debug\VncSharpExampleCS.Properties.Resources.resources
+C:\private\dev\project\VS\Demo\vncsharp\VncSharpExampleCS\obj\Debug\VncSharpExampleCS.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\Demo\vncsharp\VncSharpExampleCS\obj\Debug\VncSharpExampleCS.exe
+C:\private\dev\project\VS\Demo\vncsharp\VncSharpExampleCS\obj\Debug\VncSharpExampleCS.pdb

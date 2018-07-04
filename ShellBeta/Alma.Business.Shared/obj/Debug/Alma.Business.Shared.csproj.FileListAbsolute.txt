@@ -1,0 +1,10 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Business.Shared\obj\Debug\Alma.Business.Shared.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\framework\Alma.Business.Shared.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\framework\Alma.Business.Shared.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Business.Shared\obj\Debug\Alma.Business.Shared.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Alma.Business.Shared\obj\Debug\Alma.Business.Shared.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Develop.Bin\framework\Alma.Business.Shared.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Develop.Bin\framework\Alma.Business.Shared.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Alma.Business.Shared\obj\Debug\Alma.Business.Shared.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Alma.Business.Shared\obj\Debug\Alma.Business.Shared.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Alma.Business.Shared\obj\Debug\Alma.Business.Shared.pdb

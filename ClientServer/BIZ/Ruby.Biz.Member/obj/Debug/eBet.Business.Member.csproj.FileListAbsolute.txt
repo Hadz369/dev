@@ -1,0 +1,4 @@
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\BIZ\eBet.Business.Member.dll
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\Develop.Bin\BIZ\eBet.Business.Member.pdb
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\BIZ\eBet.Business.Member\obj\Debug\eBet.Business.Member.dll
+C:\development\FlexiNetV2\FlexiNet\eBet\ARC\BIZ\eBet.Business.Member\obj\Debug\eBet.Business.Member.pdb

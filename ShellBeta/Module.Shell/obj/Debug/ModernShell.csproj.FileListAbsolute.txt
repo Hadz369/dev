@@ -1,0 +1,33 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\module\ModernShell.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\module\ModernShell.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Module.Shell\obj\Debug\Shell.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Module.Shell\obj\Debug\Shell.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Module.Shell\obj\Debug\ModernShell_MarkupCompile.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Module.Shell\obj\Debug\ModernShell.g.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Module.Shell\obj\Debug\Alma.Module.Properties.Resources.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Module.Shell\obj\Debug\ModernShell.csproj.GenerateResource.Cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Module.Shell\obj\Debug\ModernShell.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Module.Shell\obj\Debug\ModernShell.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Module.Shell\obj\Debug\ModernShell.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Develop.Bin\module\ModernShell.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Develop.Bin\module\ModernShell.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Module.Shell\obj\Debug\ModernShell.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Module.Shell\obj\Debug\Shell.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Module.Shell\obj\Debug\Shell.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Module.Shell\obj\Debug\ModernShell_MarkupCompile.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Module.Shell\obj\Debug\ModernShell.g.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Module.Shell\obj\Debug\Alma.Module.Properties.Resources.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Module.Shell\obj\Debug\ModernShell.csproj.GenerateResource.Cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Module.Shell\obj\Debug\ModernShell.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Module.Shell\obj\Debug\ModernShell.pdb
+C:\private\dev\project\VS\ShellBeta\Develop.Bin\module\ModernShell.dll
+C:\private\dev\project\VS\ShellBeta\Develop.Bin\module\ModernShell.pdb
+C:\private\dev\project\VS\ShellBeta\Module.Shell\obj\Debug\ModernShell.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\ShellBeta\Module.Shell\obj\Debug\Shell.baml
+C:\private\dev\project\VS\ShellBeta\Module.Shell\obj\Debug\Shell.g.cs
+C:\private\dev\project\VS\ShellBeta\Module.Shell\obj\Debug\ModernShell_MarkupCompile.cache
+C:\private\dev\project\VS\ShellBeta\Module.Shell\obj\Debug\ModernShell.g.resources
+C:\private\dev\project\VS\ShellBeta\Module.Shell\obj\Debug\Alma.Module.Properties.Resources.resources
+C:\private\dev\project\VS\ShellBeta\Module.Shell\obj\Debug\ModernShell.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\ShellBeta\Module.Shell\obj\Debug\ModernShell.dll
+C:\private\dev\project\VS\ShellBeta\Module.Shell\obj\Debug\ModernShell.pdb

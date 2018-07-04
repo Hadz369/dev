@@ -1,0 +1,7 @@
+C:\private\dev\project\VS\Metro\Develop.Bin\DAL\Metro.Data.Member.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\DAL\Metro.Data.Member.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Member\obj\Debug\Metro.Data.Member.dll
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Member\obj\Debug\Metro.Data.Member.pdb
+C:\private\dev\project\VS\Metro\datalayer\Metro.Data.Member\obj\Debug\Metro.Data.Member.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Member\obj\Debug\Metro.Data.Member.dll
+C:\private\dev\project\VS\Metro\DAL\Metro.Data.Member\obj\Debug\Metro.Data.Member.pdb

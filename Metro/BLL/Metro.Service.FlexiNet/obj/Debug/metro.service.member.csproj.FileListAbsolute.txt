@@ -1,0 +1,8 @@
+C:\private\dev\project\VS\Metro\Develop.Bin\BIZ\Metro.Biz.Member.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\BIZ\Metro.Biz.Member.pdb
+C:\private\dev\project\VS\Metro\Develop.Bin\BLL\metro.service.member.dll
+C:\private\dev\project\VS\Metro\Develop.Bin\BLL\metro.service.member.pdb
+C:\private\dev\project\VS\Metro\BLL\Metro.Server.Member\obj\Debug\metro.service.member.dll
+C:\private\dev\project\VS\Metro\BLL\Metro.Server.Member\obj\Debug\metro.service.member.pdb
+C:\private\dev\project\VS\Metro\BLL\metro.service.member\obj\Debug\Metro.Service.Member.dll
+C:\private\dev\project\VS\Metro\BLL\metro.service.member\obj\Debug\Metro.Service.Member.pdb

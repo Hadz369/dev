@@ -1,0 +1,39 @@
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\module\ModuleTwoThree.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Develop.Bin\module\ModuleTwoThree.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\ModuleThree.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\ModuleTwo.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\ModuleThree.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\ModuleTwo.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree_MarkupCompile.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.g.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\Alma.Module.Properties.Resources.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.csproj.GenerateResource.Cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.csprojResolveAssemblyReference.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleThree.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwo.baml
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleThree.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwo.g.cs
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree_MarkupCompile.cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.g.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\Alma.Module.Properties.Resources.resources
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.csproj.GenerateResource.Cache
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.pdb
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Develop.Bin\module\ModuleTwoThree.dll
+C:\Users\dhadley\Documents\Visual Studio 2013\Projects\ShellBeta\Develop.Bin\module\ModuleTwoThree.pdb
+C:\private\dev\project\VS\ShellBeta\Develop.Bin\module\ModuleTwoThree.dll
+C:\private\dev\project\VS\ShellBeta\Develop.Bin\module\ModuleTwoThree.pdb
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleThree.baml
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwo.baml
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleThree.g.cs
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwo.g.cs
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree_MarkupCompile.cache
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.g.resources
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\Alma.Module.Properties.Resources.resources
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.csproj.GenerateResource.Cache
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.dll
+C:\private\dev\project\VS\ShellBeta\Modules\ModuleTwoThree\obj\Debug\ModuleTwoThree.pdb

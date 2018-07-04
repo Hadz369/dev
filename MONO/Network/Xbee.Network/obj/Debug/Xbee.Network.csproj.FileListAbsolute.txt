@@ -1,0 +1,8 @@
+C:\private\dev\project\MONO\Network\Xbee.Network\bin\Debug\Xbee.Network.dll
+C:\private\dev\project\MONO\Network\Xbee.Network\bin\Debug\Xbee.Network.pdb
+C:\private\dev\project\MONO\Network\Xbee.Network\obj\Debug\Xbee.Network.dll
+C:\private\dev\project\MONO\Network\Xbee.Network\obj\Debug\Xbee.Network.pdb
+Q:\project\MONO\Network\Xbee.Network\bin\Debug\Xbee.Network.dll
+Q:\project\MONO\Network\Xbee.Network\bin\Debug\Xbee.Network.pdb
+Q:\project\MONO\Network\Xbee.Network\obj\Debug\Xbee.Network.dll
+Q:\project\MONO\Network\Xbee.Network\obj\Debug\Xbee.Network.pdb

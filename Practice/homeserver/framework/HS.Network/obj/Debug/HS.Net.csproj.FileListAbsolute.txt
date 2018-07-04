@@ -1,0 +1,17 @@
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Network\bin\Debug\HS.Net.dll
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Network\bin\Debug\HS.Net.pdb
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Network\bin\Debug\HS.Core.dll
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Network\bin\Debug\HS.Core.Shared.dll
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Network\bin\Debug\HS.Core.pdb
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Network\bin\Debug\HS.Core.Shared.pdb
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Network\obj\Debug\HS.Net.dll
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Network\obj\Debug\HS.Net.pdb
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Net\bin\Debug\HS.Net.dll
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Net\bin\Debug\HS.Net.pdb
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Net\bin\Debug\HS.Core.dll
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Net\bin\Debug\HS.Core.Shared.dll
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Net\bin\Debug\HS.Core.pdb
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Net\bin\Debug\HS.Core.Shared.pdb
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Net\obj\Debug\HS.Net.dll
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Net\obj\Debug\HS.Net.pdb
+C:\private\dev\project\VS\Practice\homeserver\framework\HS.Net\obj\Debug\HS.Net.csprojResolveAssemblyReference.cache

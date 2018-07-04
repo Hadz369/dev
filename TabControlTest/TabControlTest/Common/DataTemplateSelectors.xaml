@@ -1,0 +1,114 @@
+﻿<ResourceDictionary 
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:rv="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.ReportViewer.WinForms" 
+    xmlns:Viewer="clr-namespace:SAPBusinessObjects.WPF.Viewer;assembly=SAPBusinessObjects.WPF.Viewer"  
+    xmlns:local="clr-namespace:TabControlTest">
+    
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="Styles.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <!--
+        Templates used for the tab page content
+        -->
+    <local:TabItemDataTemplateSelector x:Key="tabItemDataTemplateSelector">
+        <local:TabItemDataTemplateSelector.ReportViewerTemplate>
+            <DataTemplate>
+                <Grid>
+                    <WindowsFormsHost>
+                        <rv:ReportViewer />
+                    </WindowsFormsHost>
+                </Grid>
+            </DataTemplate>
+        </local:TabItemDataTemplateSelector.ReportViewerTemplate>
+        <local:TabItemDataTemplateSelector.CrystalTemplate>
+            <DataTemplate>
+                <Grid>
+                    <Viewer:CrystalReportsViewer />
+                </Grid>
+            </DataTemplate>
+        </local:TabItemDataTemplateSelector.CrystalTemplate>
+        <local:TabItemDataTemplateSelector.DataGridTemplate>
+            <DataTemplate>
+                <Grid>
+                    <DataGrid />
+                </Grid>
+            </DataTemplate>
+        </local:TabItemDataTemplateSelector.DataGridTemplate>
+    </local:TabItemDataTemplateSelector>
+
+    <!--
+        Templates used for parameter editor controls
+        -->
+    <local:ParameterDataTemplateSelector x:Key="parameterDataTemplateSelector">
+        <local:ParameterDataTemplateSelector.IntegerParameterTemplate>
+            <DataTemplate>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelSize" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Content="{Binding Name}" Style="{StaticResource parameterLabelStyle}"/>
+                    <TextBox Grid.Column="1" Text="{Binding Value}" Style="{StaticResource numericEditorStyle}" />
+                </Grid>
+            </DataTemplate>
+        </local:ParameterDataTemplateSelector.IntegerParameterTemplate>
+        <local:ParameterDataTemplateSelector.StringParameterTemplate>
+            <DataTemplate>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelSize" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Content="{Binding Name}" Style="{StaticResource parameterLabelStyle}" />
+                    <TextBox Grid.Column="1" Text="{Binding Value}" Style="{StaticResource multiLineStringEditorStyle}" />
+                </Grid>
+            </DataTemplate>
+        </local:ParameterDataTemplateSelector.StringParameterTemplate>
+        <local:ParameterDataTemplateSelector.DateParameterTemplate>
+            <DataTemplate>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelSize" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Content="{Binding Name}" Style="{StaticResource parameterLabelStyle}"/>
+                    <DatePicker Grid.Column="1" Text="{Binding Value}" Style="{StaticResource dateEditorStyle}"/>
+                </Grid>
+            </DataTemplate>
+        </local:ParameterDataTemplateSelector.DateParameterTemplate>
+        <local:ParameterDataTemplateSelector.TimeParameterTemplate>
+            <DataTemplate>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelSize" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Content="{Binding Name}"/>
+                    <DatePickerTextBox Grid.Column="1" Text="{Binding Value}" />
+                </Grid>
+            </DataTemplate>
+        </local:ParameterDataTemplateSelector.TimeParameterTemplate>
+        <local:ParameterDataTemplateSelector.ComboParameterTemplate>
+            <DataTemplate>
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="Auto" SharedSizeGroup="LabelSize" />
+                        <ColumnDefinition />
+                    </Grid.ColumnDefinitions>
+                    <Label Grid.Column="0" Content="{Binding Name}" Style="{StaticResource parameterLabelStyle}"/>
+                    <ComboBox Grid.Column="1" ItemsSource="{Binding Value}"
+                            SelectedValuePath="{Binding Key}"
+                            Style="{StaticResource comboEditorStyle}">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Path=Value}"/>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </Grid>
+            </DataTemplate>
+        </local:ParameterDataTemplateSelector.ComboParameterTemplate>
+    </local:ParameterDataTemplateSelector>
+</ResourceDictionary>
