@@ -1,0 +1,8 @@
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherClient\bin\Debug\FileSystemWatcherClient.exe.config
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherClient\bin\Debug\FileSystemWatcherClient.exe
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherClient\bin\Debug\FileSystemWatcherClient.pdb
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherClient\bin\Debug\FileSystemWatcherShared.dll
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherClient\bin\Debug\Newtonsoft.Json.dll
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherClient\bin\Debug\FileSystemWatcherShared.pdb
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherClient\obj\Debug\FileSystemWatcherClient.exe
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherClient\obj\Debug\FileSystemWatcherClient.pdb

@@ -1,0 +1,9 @@
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherService\bin\Debug\FileSystemWatcherService.dll
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherService\bin\Debug\FileSystemWatcherService.pdb
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherService\bin\Debug\FileSystemWatcherShared.dll
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherService\bin\Debug\Newtonsoft.Json.dll
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherService\bin\Debug\FileSystemWatcherShared.pdb
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherService\obj\Debug\FileSystemWatcherService.csprojResolveAssemblyReference.cache
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherService\obj\Debug\FileSystemWatcherService.dll
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherService\obj\Debug\FileSystemWatcherService.pdb
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherService\bin\Debug\protobuf-net.dll

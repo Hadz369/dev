@@ -1,0 +1,5 @@
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherShared\bin\Debug\FileSystemWatcherShared.dll
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherShared\bin\Debug\FileSystemWatcherShared.pdb
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherShared\bin\Debug\protobuf-net.dll
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherShared\obj\Debug\FileSystemWatcherShared.dll
+C:\private\dev\project\VS\FileSystemWatcher\FileSystemWatcherShared\obj\Debug\FileSystemWatcherShared.pdb
